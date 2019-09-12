@@ -1,0 +1,94 @@
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\bin\Release\ControlFianzas.accdb
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\bin\Release\ControlFianzas.exe.config
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\bin\Release\ControlFianzas.exe
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\bin\Release\ControlFianzas.pdb
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\bin\Release\Controlador.dll
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\bin\Release\Modelo.dll
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\bin\Release\Controlador.pdb
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\bin\Release\Modelo.pdb
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.csprojResolveAssemblyReference.cache
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.FormBuscarPredeterminado.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.FormDatosLiberacionConsulta.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.FormConsultas.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.FormDatosLiberacion.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.FormEtiquetas.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.FormIntroducirNroFianzaAño.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.FormLiberacion.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.FormFianzas.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.FormIntroducirAño.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.FormIntroducirNroFianza.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.FormMostrarEtiqueta.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.FormAviso.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.FormNotificaciones.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.FormVentanaPrincipal.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.FormInicio.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.FormActualizarInfo.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.Properties.Resources.resources
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\Vista.csproj.GenerateResource.Cache
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\RdlCompile.cache
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\RdlCompile.compiled
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\ControlFianzas.exe
+C:\Users\BrianJCh\Desktop\ControlFianzas\Vista\obj\Release\ControlFianzas.pdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\bin\Release\ControlFianzas.accdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\bin\Release\ControlFianzas.exe.config
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\bin\Release\ControlFianzas.exe
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\bin\Release\ControlFianzas.pdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\bin\Release\Controlador.dll
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\bin\Release\Modelo.dll
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\bin\Release\Controlador.pdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\bin\Release\Modelo.pdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.csprojResolveAssemblyReference.cache
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.FormBuscarPredeterminado.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.FormDatosLiberacionConsulta.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.FormConsultas.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.FormDatosLiberacion.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.FormEtiquetas.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.FormIntroducirNroFianzaAño.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.FormLiberacion.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.FormFianzas.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.FormIntroducirAño.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.FormIntroducirNroFianza.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.FormMostrarEtiqueta.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.FormAviso.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.FormNotificaciones.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.FormVentanaPrincipal.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.FormInicio.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.FormActualizarInfo.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.Properties.Resources.resources
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\Vista.csproj.GenerateResource.Cache
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\RdlCompile.cache
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\RdlCompile.compiled
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\ControlFianzas.exe
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Vista\obj\Release\ControlFianzas.pdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\bin\Release\ControlFianzas.accdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\bin\Release\ControlFianzas.exe.config
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\bin\Release\ControlFianzas.exe
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\bin\Release\ControlFianzas.pdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\bin\Release\Controlador.dll
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\bin\Release\Modelo.dll
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\bin\Release\Controlador.pdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\bin\Release\Modelo.pdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.csprojResolveAssemblyReference.cache
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormBuscarPredeterminado.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormDatosLiberacionConsulta.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormConsultas.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormDatosLiberacion.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormEtiquetas.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormHistograma.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormIntroducirNroFianzaAño.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormLiberacion.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormFianzas.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormIntroducirAño.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormIntroducirNroFianza.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormMostrarEtiqueta.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormAviso.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormNotificaciones.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormVentanaPrincipal.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormInicio.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.FormActualizarInfo.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.Properties.Resources.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\Vista.csproj.GenerateResource.Cache
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\RdlCompile.cache
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\RdlCompile.compiled
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\ControlFianzas.exe
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Vista\obj\Release\ControlFianzas.pdb

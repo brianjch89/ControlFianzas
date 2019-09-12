@@ -1,0 +1,24 @@
+C:\Users\BrianJCh\Desktop\ControlFianzas\Controlador\bin\Release\ControlFianzas.accdb
+C:\Users\BrianJCh\Desktop\ControlFianzas\Controlador\bin\Release\Controlador.dll
+C:\Users\BrianJCh\Desktop\ControlFianzas\Controlador\bin\Release\Controlador.pdb
+C:\Users\BrianJCh\Desktop\ControlFianzas\Controlador\bin\Release\Modelo.dll
+C:\Users\BrianJCh\Desktop\ControlFianzas\Controlador\bin\Release\Modelo.pdb
+C:\Users\BrianJCh\Desktop\ControlFianzas\Controlador\obj\Release\Controlador.csprojResolveAssemblyReference.cache
+C:\Users\BrianJCh\Desktop\ControlFianzas\Controlador\obj\Release\Controlador.dll
+C:\Users\BrianJCh\Desktop\ControlFianzas\Controlador\obj\Release\Controlador.pdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Controlador\bin\Release\ControlFianzas.accdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Controlador\bin\Release\Controlador.dll
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Controlador\bin\Release\Controlador.pdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Controlador\bin\Release\Modelo.dll
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Controlador\bin\Release\Modelo.pdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Controlador\obj\Release\Controlador.csprojResolveAssemblyReference.cache
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Controlador\obj\Release\Controlador.dll
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Controlador\obj\Release\Controlador.pdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Controlador\bin\Release\ControlFianzas.accdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Controlador\bin\Release\Controlador.dll
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Controlador\bin\Release\Controlador.pdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Controlador\bin\Release\Modelo.dll
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Controlador\bin\Release\Modelo.pdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Controlador\obj\Release\Controlador.csprojResolveAssemblyReference.cache
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Controlador\obj\Release\Controlador.dll
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Controlador\obj\Release\Controlador.pdb

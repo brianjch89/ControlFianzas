@@ -1,0 +1,38 @@
+C:\Users\avaldivi.SENIAT\Desktop\ControlFianzas\Modelo\bin\Debug\ControlFianzas.accdb
+C:\Users\avaldivi.SENIAT\Desktop\ControlFianzas\Modelo\bin\Debug\Modelo.dll
+C:\Users\avaldivi.SENIAT\Desktop\ControlFianzas\Modelo\bin\Debug\Modelo.pdb
+C:\Users\avaldivi.SENIAT\Desktop\ControlFianzas\Modelo\obj\Debug\Modelo.dll
+C:\Users\avaldivi.SENIAT\Desktop\ControlFianzas\Modelo\obj\Debug\Modelo.pdb
+C:\Users\BrianJCh\Desktop\Nueva carpeta (2)\ControlFianzas\Modelo\bin\Debug\ControlFianzas.accdb
+C:\Users\BrianJCh\Desktop\Nueva carpeta (2)\ControlFianzas\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\BrianJCh\Desktop\Nueva carpeta (2)\ControlFianzas\Modelo\bin\Debug\Modelo.dll
+C:\Users\BrianJCh\Desktop\Nueva carpeta (2)\ControlFianzas\Modelo\bin\Debug\Modelo.pdb
+C:\Users\BrianJCh\Desktop\Nueva carpeta (2)\ControlFianzas\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\BrianJCh\Desktop\Nueva carpeta (2)\ControlFianzas\Modelo\obj\Debug\Modelo.dll
+C:\Users\BrianJCh\Desktop\Nueva carpeta (2)\ControlFianzas\Modelo\obj\Debug\Modelo.pdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\Nueva carpeta\ControlFianzas\Modelo\bin\Debug\ControlFianzas.accdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\Nueva carpeta\ControlFianzas\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\Nueva carpeta\ControlFianzas\Modelo\bin\Debug\Modelo.dll
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\Nueva carpeta\ControlFianzas\Modelo\bin\Debug\Modelo.pdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\Nueva carpeta\ControlFianzas\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\Nueva carpeta\ControlFianzas\Modelo\obj\Debug\Modelo.dll
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\Nueva carpeta\ControlFianzas\Modelo\obj\Debug\Modelo.pdb
+C:\Users\BrianJCh\Desktop\ControlFianzas\Modelo\bin\Debug\ControlFianzas.accdb
+C:\Users\BrianJCh\Desktop\ControlFianzas\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\BrianJCh\Desktop\ControlFianzas\Modelo\bin\Debug\Modelo.dll
+C:\Users\BrianJCh\Desktop\ControlFianzas\Modelo\bin\Debug\Modelo.pdb
+C:\Users\BrianJCh\Desktop\ControlFianzas\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\BrianJCh\Desktop\ControlFianzas\Modelo\obj\Debug\Modelo.dll
+C:\Users\BrianJCh\Desktop\ControlFianzas\Modelo\obj\Debug\Modelo.pdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Modelo\bin\Debug\ControlFianzas.accdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Modelo\bin\Debug\Modelo.dll
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Modelo\bin\Debug\Modelo.pdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Modelo\obj\Debug\Modelo.dll
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Modelo\obj\Debug\Modelo.pdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Debug\ControlFianzas.accdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Debug\Modelo.dll
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Debug\Modelo.pdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\obj\Debug\Modelo.dll
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\obj\Debug\Modelo.pdb

@@ -1,0 +1,18 @@
+C:\Users\BrianJCh\Desktop\ControlFianzas\Modelo\bin\Release\ControlFianzas.accdb
+C:\Users\BrianJCh\Desktop\ControlFianzas\Modelo\bin\Release\Modelo.dll.config
+C:\Users\BrianJCh\Desktop\ControlFianzas\Modelo\bin\Release\Modelo.dll
+C:\Users\BrianJCh\Desktop\ControlFianzas\Modelo\bin\Release\Modelo.pdb
+C:\Users\BrianJCh\Desktop\ControlFianzas\Modelo\obj\Release\Modelo.dll
+C:\Users\BrianJCh\Desktop\ControlFianzas\Modelo\obj\Release\Modelo.pdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Modelo\bin\Release\ControlFianzas.accdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Modelo\bin\Release\Modelo.dll.config
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Modelo\bin\Release\Modelo.dll
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Modelo\bin\Release\Modelo.pdb
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Modelo\obj\Release\Modelo.dll
+C:\Users\avaldivi.SENIAT\Desktop\OTRO\ControlFianzas\Modelo\obj\Release\Modelo.pdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Release\ControlFianzas.accdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Release\Modelo.dll.config
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Release\Modelo.dll
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Release\Modelo.pdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\obj\Release\Modelo.dll
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\obj\Release\Modelo.pdb

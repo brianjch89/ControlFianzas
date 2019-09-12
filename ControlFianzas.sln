@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vista", "Vista\Vista.csproj", "{15B34E8E-ACE3-46A0-817D-FC7AD01DBBD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "Modelo\Modelo.csproj", "{5A195D2B-8ED9-41A2-B01E-C0DBAB9FEAE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controlador", "Controlador\Controlador.csproj", "{4A62D64D-2971-48CF-9DA8-5D555705E389}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15B34E8E-ACE3-46A0-817D-FC7AD01DBBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B34E8E-ACE3-46A0-817D-FC7AD01DBBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B34E8E-ACE3-46A0-817D-FC7AD01DBBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B34E8E-ACE3-46A0-817D-FC7AD01DBBD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A195D2B-8ED9-41A2-B01E-C0DBAB9FEAE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A195D2B-8ED9-41A2-B01E-C0DBAB9FEAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A195D2B-8ED9-41A2-B01E-C0DBAB9FEAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A195D2B-8ED9-41A2-B01E-C0DBAB9FEAE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A62D64D-2971-48CF-9DA8-5D555705E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A62D64D-2971-48CF-9DA8-5D555705E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A62D64D-2971-48CF-9DA8-5D555705E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A62D64D-2971-48CF-9DA8-5D555705E389}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

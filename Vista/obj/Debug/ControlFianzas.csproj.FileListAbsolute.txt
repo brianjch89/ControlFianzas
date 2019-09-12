@@ -1,0 +1,116 @@
+c:\users\brianjch\documents\visual studio 2012\Projects\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.exe.config
+c:\users\brianjch\documents\visual studio 2012\Projects\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.exe
+c:\users\brianjch\documents\visual studio 2012\Projects\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.pdb
+c:\users\brianjch\documents\visual studio 2012\Projects\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.Form1.resources
+c:\users\brianjch\documents\visual studio 2012\Projects\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.Properties.Resources.resources
+c:\users\brianjch\documents\visual studio 2012\Projects\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.csproj.GenerateResource.Cache
+c:\users\brianjch\documents\visual studio 2012\Projects\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.exe
+c:\users\brianjch\documents\visual studio 2012\Projects\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.pdb
+C:\Users\avaldivi.SENIAT\Desktop\Nueva carpeta\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.exe.config
+C:\Users\avaldivi.SENIAT\Desktop\Nueva carpeta\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.exe
+C:\Users\avaldivi.SENIAT\Desktop\Nueva carpeta\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.pdb
+C:\Users\avaldivi.SENIAT\Desktop\Nueva carpeta\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.exe
+C:\Users\avaldivi.SENIAT\Desktop\Nueva carpeta\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.pdb
+C:\Users\avaldivi.SENIAT\Desktop\Nueva carpeta\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.csprojResolveAssemblyReference.cache
+C:\Users\avaldivi.SENIAT\Desktop\Nueva carpeta\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.Form1.resources
+C:\Users\avaldivi.SENIAT\Desktop\Nueva carpeta\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.Properties.Resources.resources
+C:\Users\avaldivi.SENIAT\Desktop\Nueva carpeta\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.csproj.GenerateResource.Cache
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.accdb
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.exe.config
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.exe
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.pdb
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormFianzaIngresada.resources
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormConsultas.resources
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormDatosLiberacion.resources
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormEdicion.resources
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormFianzas.resources
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormIngresarNroContratoLiberacion.resources
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormIntroducirAño.resources
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormIntroducirNroFianza.resources
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormLiberacion.resources
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormMostrarEtiqueta.resources
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormNotificaciones.resources
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormAviso.resources
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormVentanaPrincipal.resources
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormInicio.resources
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormPredeterminados.resources
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.Properties.Resources.resources
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.csproj.GenerateResource.Cache
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\RdlCompile.cache
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\RdlCompile.compiled
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.exe
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.pdb
+C:\Users\avaldivi.SENIAT\Desktop\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.csprojResolveAssemblyReference.cache
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.exe.config
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.exe
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.pdb
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.accdb
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.exe
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.pdb
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.csprojResolveAssemblyReference.cache
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormFianzaIngresada.resources
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormConsultas.resources
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormDatosLiberacion.resources
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormLiberacion.resources
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormFianzas.resources
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormIngresarNroContratoLiberacion.resources
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormIntroducirAño.resources
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormIntroducirNroFianza.resources
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormMostrarEtiqueta.resources
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormNotificaciones.resources
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormAviso.resources
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormVentanaPrincipal.resources
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormInicio.resources
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormPredeterminados.resources
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.Properties.Resources.resources
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.csproj.GenerateResource.Cache
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\RdlCompile.cache
+C:\Users\avaldivi.SENIAT\Desktop\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\RdlCompile.compiled
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.accdb
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.exe.config
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.exe
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.pdb
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormFianzaIngresada.resources
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormConsultas.resources
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormDatosLiberacion.resources
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormLiberacion.resources
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormFianzas.resources
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormIngresarNroContratoLiberacion.resources
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormIntroducirAño.resources
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormIntroducirNroFianza.resources
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormMostrarEtiqueta.resources
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormNotificaciones.resources
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormAviso.resources
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormVentanaPrincipal.resources
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormInicio.resources
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormPredeterminados.resources
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.Properties.Resources.resources
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.csproj.GenerateResource.Cache
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\RdlCompile.cache
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\RdlCompile.compiled
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.exe
+C:\Users\avaldivi.SENIAT\Desktop\escritorio brean\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.pdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.accdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.exe.config
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.exe
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\bin\Debug\ControlFianzas.pdb
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormFianzaIngresada.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormConsultas.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormDatosLiberacion.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormLiberacion.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormFianzas.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormIngresarNroContratoLiberacion.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormIntroducirAño.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormIntroducirNroFianza.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormMostrarEtiqueta.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormAviso.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormNotificaciones.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormVentanaPrincipal.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormInicio.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.FormPredeterminados.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.Properties.Resources.resources
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.csproj.GenerateResource.Cache
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\RdlCompile.cache
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\RdlCompile.compiled
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.exe
+C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\ControlFianzas\obj\Debug\ControlFianzas.pdb

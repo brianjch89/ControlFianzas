@@ -1,0 +1,20 @@
+https://www.google.co.ve/search?ei=IvuDW8u2Da_n5gKR0q-AAg&q=modificar+un+informe+en+c%23+via+codigo&oq=modificar+un+informe+en+c%23+via+codigo&gs_l=psy-ab.3...8821029.8821762.0.8822102.7.6.0.0.0.0.0.0..0.0....0...1c.1.64.psy-ab..7.0.0....0.oblq16taA9g
+
+http://www.cjorellana.net/2013/09/ejemplo-de-un-reporte-visual-studio-rdlc.html
+
+https://social.msdn.microsoft.com/Forums/es-ES/1da673e7-236b-47b4-9961-df7f5ca6f7dc/report-viewer?forum=repdeves
+
+https://forum.imasters.com.br/topic/560274-mudar-reportviewer-via-codigo/
+
+http://www.forosdelweb.com/f29/acceder-controles-reporte-ms-report-viewer-645203/
+
+
+https://www.google.co.ve/search?q=como+crear+un+reportviewer+desde+codigo+c%23&oq=como+&aqs=chrome.1.69i57j35i39l2j0l3.11953j0j7&sourceid=chrome&ie=UTF-8
+https://social.msdn.microsoft.com/Forums/es-ES/4d7a4385-9965-4aab-9662-6df56a9ece08/como-configurar-un-report-viewer-por-cdigo?forum=vcses
+http://csharpshooter.blogspot.com/2007/08/generate-rdlc-dynamically-for-vs-2005.html
+
+https://www.google.co.ve/search?q=como+agregar+una+tabla+a+un+informe+via+codigo+c%23&oq=como&aqs=chrome.2.69i57j69i59j35i39j0l3.3794j0j7&sourceid=chrome&ie=UTF-8
+
+
+El muchacho del grupo de programación de Facebook que me ayudó:
+https://www.facebook.com/groups/ProgramacionRD/permalink/2038051826226639/?comment_id=2038222656209556&notif_id=1535754577522682&notif_t=group_comment&ref=notif

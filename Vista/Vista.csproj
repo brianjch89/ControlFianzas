@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15B34E8E-ACE3-46A0-817D-FC7AD01DBBD4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vista</RootNamespace>
+    <AssemblyName>ControlFianzas</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Ç+</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>handshake_78379.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormBuscarPredeterminado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBuscarPredeterminado.Designer.cs">
+      <DependentUpon>FormBuscarPredeterminado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDatosLiberacionConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDatosLiberacionConsulta.Designer.cs">
+      <DependentUpon>FormDatosLiberacionConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConsultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConsultas.Designer.cs">
+      <DependentUpon>FormConsultas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDatosLiberacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDatosLiberacion.Designer.cs">
+      <DependentUpon>FormDatosLiberacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEtiquetas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEtiquetas.Designer.cs">
+      <DependentUpon>FormEtiquetas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHistograma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHistograma.Designer.cs">
+      <DependentUpon>FormHistograma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIntroducirNroFianzaAño.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIntroducirNroFianzaAño.Designer.cs">
+      <DependentUpon>FormIntroducirNroFianzaAño.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLiberacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLiberacion.Designer.cs">
+      <DependentUpon>FormLiberacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIntroducirAño.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIntroducirAño.Designer.cs">
+      <DependentUpon>FormIntroducirAño.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFianzas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFianzas.Designer.cs">
+      <DependentUpon>FormFianzas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIntroducirNroFianza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIntroducirNroFianza.Designer.cs">
+      <DependentUpon>FormIntroducirNroFianza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMostrarEtiqueta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMostrarEtiqueta.Designer.cs">
+      <DependentUpon>FormMostrarEtiqueta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAviso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAviso.Designer.cs">
+      <DependentUpon>FormAviso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNotificaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNotificaciones.Designer.cs">
+      <DependentUpon>FormNotificaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVentanaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVentanaPrincipal.Designer.cs">
+      <DependentUpon>FormVentanaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInicio.Designer.cs">
+      <DependentUpon>FormInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormActualizarInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormActualizarInfo.Designer.cs">
+      <DependentUpon>FormActualizarInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormBuscarPredeterminado.resx">
+      <DependentUpon>FormBuscarPredeterminado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDatosLiberacionConsulta.resx">
+      <DependentUpon>FormDatosLiberacionConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConsultas.resx">
+      <DependentUpon>FormConsultas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDatosLiberacion.resx">
+      <DependentUpon>FormDatosLiberacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEtiquetas.resx">
+      <DependentUpon>FormEtiquetas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHistograma.resx">
+      <DependentUpon>FormHistograma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIntroducirNroFianzaAño.resx">
+      <DependentUpon>FormIntroducirNroFianzaAño.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLiberacion.resx">
+      <DependentUpon>FormLiberacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFianzas.resx">
+      <DependentUpon>FormFianzas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIntroducirAño.resx">
+      <DependentUpon>FormIntroducirAño.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIntroducirNroFianza.resx">
+      <DependentUpon>FormIntroducirNroFianza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMostrarEtiqueta.resx">
+      <DependentUpon>FormMostrarEtiqueta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAviso.resx">
+      <DependentUpon>FormAviso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNotificaciones.resx">
+      <DependentUpon>FormNotificaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVentanaPrincipal.resx">
+      <DependentUpon>FormVentanaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInicio.resx">
+      <DependentUpon>FormInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormActualizarInfo.resx">
+      <DependentUpon>FormActualizarInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Etiqueta_Fianza.rdlc" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controlador\Controlador.csproj">
+      <Project>{4a62d64d-2971-48cf-9da8-5d555705e389}</Project>
+      <Name>Controlador</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="handshake_78379.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
