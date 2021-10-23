@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormNotificaciones));
             this.dgvFianzasPorVencer = new System.Windows.Forms.DataGridView();
             this.NroDeFianza = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -51,6 +51,8 @@
             this.btnHistograma = new System.Windows.Forms.Button();
             this.lHora = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.lSeleccioneAño = new System.Windows.Forms.Label();
+            this.cbAño = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFianzasPorVencer)).BeginInit();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -62,14 +64,14 @@
             this.dgvFianzasPorVencer.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
             this.dgvFianzasPorVencer.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvFianzasPorVencer.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvFianzasPorVencer.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvFianzasPorVencer.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvFianzasPorVencer.ColumnHeadersHeight = 30;
             this.dgvFianzasPorVencer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvFianzasPorVencer.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -84,22 +86,22 @@
             this.dgvFianzasPorVencer.Location = new System.Drawing.Point(44, 129);
             this.dgvFianzasPorVencer.Name = "dgvFianzasPorVencer";
             this.dgvFianzasPorVencer.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvFianzasPorVencer.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvFianzasPorVencer.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvFianzasPorVencer.RowHeadersVisible = false;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvFianzasPorVencer.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
+            this.dgvFianzasPorVencer.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvFianzasPorVencer.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvFianzasPorVencer.Size = new System.Drawing.Size(961, 264);
             this.dgvFianzasPorVencer.TabIndex = 0;
@@ -144,13 +146,13 @@
             // 
             // lFianzasPorVencer
             // 
-            this.lFianzasPorVencer.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lFianzasPorVencer.BackColor = System.Drawing.Color.Green;
             this.lFianzasPorVencer.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
-            this.lFianzasPorVencer.ForeColor = System.Drawing.Color.Lime;
+            this.lFianzasPorVencer.ForeColor = System.Drawing.Color.White;
             this.lFianzasPorVencer.Location = new System.Drawing.Point(79, 406);
             this.lFianzasPorVencer.Name = "lFianzasPorVencer";
             this.lFianzasPorVencer.Size = new System.Drawing.Size(344, 47);
-            this.lFianzasPorVencer.TabIndex = 5;
+            this.lFianzasPorVencer.TabIndex = 8;
             this.lFianzasPorVencer.Text = "Fianzas por vencerse dentro de 3 meses: 0 fianzas";
             this.lFianzasPorVencer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -197,7 +199,7 @@
             this.cbMes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbMes.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
             this.cbMes.FormattingEnabled = true;
-            this.cbMes.Location = new System.Drawing.Point(244, 74);
+            this.cbMes.Location = new System.Drawing.Point(244, 52);
             this.cbMes.Margin = new System.Windows.Forms.Padding(0);
             this.cbMes.Name = "cbMes";
             this.cbMes.Size = new System.Drawing.Size(129, 26);
@@ -209,7 +211,7 @@
             this.lSeleccioneMes.AutoSize = true;
             this.lSeleccioneMes.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
             this.lSeleccioneMes.ForeColor = System.Drawing.Color.LightGreen;
-            this.lSeleccioneMes.Location = new System.Drawing.Point(79, 77);
+            this.lSeleccioneMes.Location = new System.Drawing.Point(79, 55);
             this.lSeleccioneMes.Margin = new System.Windows.Forms.Padding(0);
             this.lSeleccioneMes.Name = "lSeleccioneMes";
             this.lSeleccioneMes.Size = new System.Drawing.Size(149, 18);
@@ -227,20 +229,20 @@
             this.lFianzasVencidas.Margin = new System.Windows.Forms.Padding(0);
             this.lFianzasVencidas.Name = "lFianzasVencidas";
             this.lFianzasVencidas.Size = new System.Drawing.Size(148, 18);
-            this.lFianzasVencidas.TabIndex = 11;
+            this.lFianzasVencidas.TabIndex = 5;
             this.lFianzasVencidas.Text = "FIANZAS VENCIDAS";
             this.lFianzasVencidas.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lFianzasVencidas.Visible = false;
             // 
             // lCantidadFianzasVencidas
             // 
-            this.lCantidadFianzasVencidas.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lCantidadFianzasVencidas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
             this.lCantidadFianzasVencidas.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
-            this.lCantidadFianzasVencidas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(83)))), ((int)(((byte)(48)))));
-            this.lCantidadFianzasVencidas.Location = new System.Drawing.Point(595, 406);
+            this.lCantidadFianzasVencidas.ForeColor = System.Drawing.Color.White;
+            this.lCantidadFianzasVencidas.Location = new System.Drawing.Point(596, 406);
             this.lCantidadFianzasVencidas.Name = "lCantidadFianzasVencidas";
             this.lCantidadFianzasVencidas.Size = new System.Drawing.Size(344, 47);
-            this.lCantidadFianzasVencidas.TabIndex = 6;
+            this.lCantidadFianzasVencidas.TabIndex = 9;
             this.lCantidadFianzasVencidas.Text = "Fianzas por vencerse dentro de 3 meses: 0 fianzas";
             this.lCantidadFianzasVencidas.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -257,7 +259,7 @@
             this.btnHistograma.Location = new System.Drawing.Point(851, 68);
             this.btnHistograma.Name = "btnHistograma";
             this.btnHistograma.Size = new System.Drawing.Size(70, 40);
-            this.btnHistograma.TabIndex = 4;
+            this.btnHistograma.TabIndex = 7;
             this.toolTip1.SetToolTip(this.btnHistograma, "Histograma de Fianzas");
             this.btnHistograma.UseVisualStyleBackColor = false;
             this.btnHistograma.Click += new System.EventHandler(this.btnHistograma_Click);
@@ -269,9 +271,36 @@
             this.lHora.Location = new System.Drawing.Point(652, 48);
             this.lHora.Name = "lHora";
             this.lHora.Size = new System.Drawing.Size(185, 76);
-            this.lHora.TabIndex = 23;
+            this.lHora.TabIndex = 6;
             this.lHora.Text = "Presione este botón para poder visualizar un histograma de fianzas";
             this.lHora.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lSeleccioneAño
+            // 
+            this.lSeleccioneAño.AutoSize = true;
+            this.lSeleccioneAño.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lSeleccioneAño.ForeColor = System.Drawing.Color.LightGreen;
+            this.lSeleccioneAño.Location = new System.Drawing.Point(107, 93);
+            this.lSeleccioneAño.Margin = new System.Windows.Forms.Padding(0);
+            this.lSeleccioneAño.Name = "lSeleccioneAño";
+            this.lSeleccioneAño.Size = new System.Drawing.Size(148, 18);
+            this.lSeleccioneAño.TabIndex = 25;
+            this.lSeleccioneAño.Text = "Seleccione el año:";
+            this.lSeleccioneAño.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // cbAño
+            // 
+            this.cbAño.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbAño.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbAño.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAño.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.cbAño.FormattingEnabled = true;
+            this.cbAño.Location = new System.Drawing.Point(272, 90);
+            this.cbAño.Margin = new System.Windows.Forms.Padding(0);
+            this.cbAño.Name = "cbAño";
+            this.cbAño.Size = new System.Drawing.Size(64, 26);
+            this.cbAño.TabIndex = 4;
+            this.cbAño.SelectedIndexChanged += new System.EventHandler(this.cbAño_SelectedIndexChanged);
             // 
             // FormNotificaciones
             // 
@@ -279,6 +308,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
             this.ClientSize = new System.Drawing.Size(1020, 471);
+            this.Controls.Add(this.lSeleccioneAño);
+            this.Controls.Add(this.cbAño);
             this.Controls.Add(this.lHora);
             this.Controls.Add(this.btnHistograma);
             this.Controls.Add(this.lCantidadFianzasVencidas);
@@ -323,5 +354,7 @@
         private System.Windows.Forms.Button btnHistograma;
         private System.Windows.Forms.Label lHora;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Label lSeleccioneAño;
+        private System.Windows.Forms.ComboBox cbAño;
     }
 }

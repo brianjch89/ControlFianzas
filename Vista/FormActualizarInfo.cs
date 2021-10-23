@@ -150,6 +150,8 @@ namespace Vista
             DataRow consig = consignatarios.Rows[(int)contConsignatarios];
 
             mtbRifConsignatario.Text = consig["Rif_Consignatario"].ToString();
+            mtbRifConsignatario.Enabled = false;
+
             tbNombreConsignatario.Text = consig["Nombre_Consignatario"].ToString();
             tbSiglasConsignatario.Text = consig["Siglas"].ToString();
             tbRepresentanteConsignatario.Text = consig["Representante"].ToString();
@@ -166,6 +168,8 @@ namespace Vista
             DataRow agen = agentes.Rows[(int)contAgentes];
 
             mtbRifAgente.Text = agen["Rif_Agentes"].ToString();
+            mtbRifAgente.Enabled = false;
+
             tbNombreAgente.Text = agen["Nombre_Agente"].ToString();
             tbSiglasAgente.Text = agen["Siglas_Agente"].ToString();
             tbRepresentanteAgente.Text = agen["Representante"].ToString();
@@ -181,6 +185,8 @@ namespace Vista
             DataRow garan = garantes.Rows[(int)contGarantes];
 
             mtbRifGarante.Text = garan["Rif_Garante"].ToString();
+            mtbRifGarante.Enabled = false;
+
             tbNombreGarante.Text = garan["Nombre_Garante"].ToString();
             tbSiglasGarante.Text = garan["Siglas"].ToString();
             tbDireccionGarante.Text = garan["Direccion"].ToString();
@@ -211,6 +217,8 @@ namespace Vista
             DataRow tipoF = tipoFianzas.Rows[(int)contTipoFianzas];
 
             tbCodigoOperacion.Text = tipoF["Cod_Tf"].ToString();
+            tbCodigoOperacion.Enabled = false;
+
             tbSiglasOperacion.Text = tipoF["DesTipFian"].ToString();
             tbDescripcionOperacion.Text = tipoF["DesTipFianza"].ToString();
 
@@ -319,6 +327,8 @@ namespace Vista
             DataRow moti = motivos.Rows[(int)contMotivos];
 
             tbCodigoLiberacionML.Text = moti["Cod_Lib"].ToString();
+            tbCodigoLiberacionML.Enabled = false;
+
             tbDescripcionML.Text = moti["Descripcion"].ToString();
 
             lCantidadMotivos.Text = (contMotivos + 1) + " de " + motivos.Rows.Count;
@@ -328,6 +338,7 @@ namespace Vista
         // BOTONES CONSIGNATARIOS
         private void btnNuevoConsignatario_Click(object sender, EventArgs e)
         {
+            mtbRifConsignatario.Enabled = true;
             mtbRifConsignatario.Focus();
             estadoConsignatario = true;
             VaciarCamposConsignatario();
@@ -350,16 +361,18 @@ namespace Vista
             FormBuscarPredeterminado fbp = new FormBuscarPredeterminado("Ingrese o seleccione el RIF del Consignatario", 1);
             fbp.setListado(consignatarios);
             fbp.ShowDialog();
-            DataTable dt = fbp.dt;
+            //DataTable dt = fbp.dt;
 
             if (fbp.ban)
             {
                 estadoConsignatario = false;
-                if (dt.Rows.Count > 0)
+                if (fbp.fi != null) // dt.Rows.Count > 0
                 {
-                    DataRow consig = dt.Rows[0];
+                    DataRow consig = fbp.fi;
 
                     mtbRifConsignatario.Text = consig["Rif_Consignatario"].ToString();
+                    mtbRifConsignatario.Enabled = false;
+
                     tbNombreConsignatario.Text = consig["Nombre_Consignatario"].ToString();
                     tbSiglasConsignatario.Text = consig["Siglas"].ToString();
                     tbRepresentanteConsignatario.Text = consig["Representante"].ToString();
@@ -438,6 +451,7 @@ namespace Vista
                             f.ListarContribuyente(1);
                             ListarConsignatarios();
                             new FormAviso("Se ha ingresado el Consignatario.", 310, 106).ShowDialog();
+                            mtbRifConsignatario.Enabled = false;
                         }
                     }
                     else
@@ -445,7 +459,7 @@ namespace Vista
                 }
                 else
                 {
-                    new FormAviso("Debe ingresar el RIF y el Nombre del Consignatario. ", 435, 169).ShowDialog();
+                    new FormAviso("Debe ingresar el RIF y el Nombre del Consignatario.", 435, 169).ShowDialog();
                     mtbRifConsignatario.Focus();
                 }
             else // Actualizar Consignatario
@@ -465,7 +479,7 @@ namespace Vista
                 }
                 else
                 {
-                    new FormAviso("Debe ingresar el RIF y el Nombre del Consignatario. ", 435, 169).ShowDialog();
+                    new FormAviso("Debe ingresar el Nombre del Consignatario.", 380, 148).ShowDialog();
                     mtbRifConsignatario.Focus();
                 }
         }
@@ -487,6 +501,7 @@ namespace Vista
         // BOTONES AGENTES
         private void btnNuevoAgente_Click(object sender, EventArgs e)
         {
+            mtbRifAgente.Enabled = true;
             mtbRifAgente.Focus();
             estadoAgente = true;
             VaciarCamposAgente();
@@ -508,16 +523,18 @@ namespace Vista
             FormBuscarPredeterminado fbp = new FormBuscarPredeterminado("Ingrese o seleccione el RIF del Agente", 2);
             fbp.setListado(agentes);
             fbp.ShowDialog();
-            DataTable dt = fbp.dt;
+            //DataTable dt = fbp.dt;
 
             if (fbp.ban)
             {
                 estadoAgente = false;
-                if (dt.Rows.Count > 0)
+                if (fbp.fi != null) // dt.Rows.Count > 0
                 {
-                    DataRow agen = dt.Rows[0];
+                    DataRow agen = fbp.fi;
 
                     mtbRifAgente.Text = agen["Rif_Agentes"].ToString();
+                    mtbRifAgente.Enabled = false;
+
                     tbNombreAgente.Text = agen["Nombre_Agente"].ToString();
                     tbSiglasAgente.Text = agen["Siglas_Agente"].ToString();
                     tbRepresentanteAgente.Text = agen["Representante"].ToString();
@@ -594,6 +611,7 @@ namespace Vista
                             contAgentes = agentes.Rows.Count - 1;
                             f.ListarAgentes(1);
                             new FormAviso("Se ha ingresado el Agente.", 258, 80).ShowDialog();
+                            mtbRifAgente.Enabled = false;
                         }
                     }
                     else
@@ -601,7 +619,7 @@ namespace Vista
                 }
                 else
                 {
-                    new FormAviso("Debe ingresar el RIF y el Nombre del Agente. ", 385, 144).ShowDialog();
+                    new FormAviso("Debe ingresar el RIF y el Nombre del Agente.", 365, 144).ShowDialog();
                     mtbRifAgente.Focus();
                 }
             else
@@ -620,7 +638,7 @@ namespace Vista
                 }
                 else
                 {
-                    new FormAviso("Debe ingresar el RIF y el Nombre del Agente. ", 385, 144).ShowDialog();
+                    new FormAviso("Debe ingresar el Nombre del Agente.", 330, 121).ShowDialog();
                     mtbRifAgente.Focus();
                 }
         }
@@ -642,6 +660,7 @@ namespace Vista
         // BOTONES GARANTES
         private void btnNuevoGarante_Click(object sender, EventArgs e)
         {
+            mtbRifGarante.Enabled = true;
             mtbRifGarante.Focus();
             estadoGarante = true;
             VaciarCamposGarante();
@@ -668,16 +687,18 @@ namespace Vista
             FormBuscarPredeterminado fbp = new FormBuscarPredeterminado("Ingrese o seleccione el RIF del Garante", 3);
             fbp.setListado(garantes);
             fbp.ShowDialog();
-            DataTable dt = fbp.dt;
+            //DataTable dt = fbp.dt;
 
             if (fbp.ban)
             {
                 estadoGarante = false;
-                if (dt.Rows.Count > 0)
+                if (fbp.fi != null) // dt.Rows.Count > 0
                 {
-                    DataRow garan = dt.Rows[0];
+                    DataRow garan = fbp.fi;
 
                     mtbRifGarante.Text = garan["Rif_Garante"].ToString();
+                    mtbRifGarante.Enabled = false;
+
                     tbNombreGarante.Text = garan["Nombre_Garante"].ToString();
                     tbSiglasGarante.Text = garan["Siglas"].ToString();
                     tbDireccionGarante.Text = garan["Direccion"].ToString();
@@ -778,6 +799,7 @@ namespace Vista
                             contGarantes = garantes.Rows.Count - 1;
                             f.ListarGarantes(1);
                             new FormAviso("Se ha ingresado el Garante.", 270, 86).ShowDialog();
+                            mtbRifGarante.Enabled = false;
                         }
                     }
                     else
@@ -816,7 +838,7 @@ namespace Vista
                 }
                 else
                 {
-                    new FormAviso("Debe ingresar el RIF y el Nombre del Garante. ", 390, 146).ShowDialog();
+                    new FormAviso("Debe ingresar el Nombre del Garante.", 337, 126).ShowDialog();
                     mtbRifGarante.Focus();
                 }
         }
@@ -856,6 +878,7 @@ namespace Vista
         // BOTONES NATURALEZA DE LA OPERACION
         private void btnNuevaOperacion_Click(object sender, EventArgs e)
         {
+            tbCodigoOperacion.Enabled = true;
             tbSiglasOperacion.Focus();
             estadoOperacion = true;
             VaciarCamposTipoDeFianza();
@@ -875,16 +898,18 @@ namespace Vista
             FormBuscarPredeterminado fbp = new FormBuscarPredeterminado("Ingrese o seleccione la Operación", 4);
             fbp.setListado(tipoFianzas);
             fbp.ShowDialog();
-            DataTable dt = fbp.dt;
+            //DataTable dt = fbp.dt;
 
             if (fbp.ban)
             {
                 estadoOperacion = false;
-                if (dt.Rows.Count > 0)
+                if (fbp.fi != null) // dt.Rows.Count > 0
                 {
-                    DataRow opera = dt.Rows[0];
+                    DataRow opera = fbp.fi;
 
                     tbCodigoOperacion.Text = opera["Cod_Tf"].ToString();
+                    tbCodigoOperacion.Enabled = false;
+
                     tbSiglasOperacion.Text = opera["DesTipFian"].ToString();
                     tbDescripcionOperacion.Text = opera["DesTipFianza"].ToString();
 
@@ -957,6 +982,7 @@ namespace Vista
                             f.ListarTipoDeFianza(1);
                             ListarTipoDeFianza();
                             new FormAviso("Se ha ingresado el Tipo de Fianza.", 309, 106).ShowDialog();
+                            tbCodigoOperacion.Enabled = false;
                         }
                     }
                     else
@@ -1042,14 +1068,14 @@ namespace Vista
             FormBuscarPredeterminado fbp = new FormBuscarPredeterminado("Ingrese o seleccione el Oficio", 5);
             fbp.setListado(oficios);
             fbp.ShowDialog();
-            DataTable dt = fbp.dt;
+            //DataTable dt = fbp.dt;
 
             if (fbp.ban)
             {
                 estadoOficio = false;
-                if (dt.Rows.Count > 0)
+                if (fbp.fi != null) // dt.Rows.Count > 0
                 {
-                    DataRow ofic = dt.Rows[0];
+                    DataRow ofic = fbp.fi;
 
                     tbOficioOficio.Text = ofic["NroOficio"].ToString();
 
@@ -1394,14 +1420,14 @@ namespace Vista
             FormBuscarPredeterminado fbp = new FormBuscarPredeterminado("Ingrese o seleccione el nombre del Gerente", 6);
             fbp.setListado(gerentes);
             fbp.ShowDialog();
-            DataTable dt = fbp.dt;
+            //DataTable dt = fbp.dt;
 
             if (fbp.ban)
             {
                 estadoGerente = false;
-                if (dt.Rows.Count > 0)
+                if (fbp.fi != null) // dt.Rows.Count > 0
                 {
-                    DataRow geren = dt.Rows[0];
+                    DataRow geren = fbp.fi;
 
                     tbNombreGerente.Text = geren["Nombre"].ToString();
                     tbCargoGerente.Text = geren["Cargo"].ToString();
@@ -1632,16 +1658,18 @@ namespace Vista
             FormBuscarPredeterminado fbp = new FormBuscarPredeterminado("Ingrese o seleccione el Motivo", 7);
             fbp.setListado(motivos);
             fbp.ShowDialog();
-            DataTable dt = fbp.dt;
+            //DataTable dt = fbp.dt;
 
             if (fbp.ban)
             {
                 estadoML = false;
-                if (dt.Rows.Count > 0)
+                if (fbp.fi != null) // dt.Rows.Count > 0
                 {
-                    DataRow moti = dt.Rows[0];
+                    DataRow moti = fbp.fi;
 
                     tbCodigoLiberacionML.Text = moti["Cod_Lib"].ToString();
+                    tbCodigoLiberacionML.Enabled = false;
+
                     tbDescripcionML.Text = moti["Descripcion"].ToString();
 
                     int i = 0;
@@ -1711,6 +1739,7 @@ namespace Vista
                             motivos = c_ActualizarInfo.ObtenerInfoTablaMotivos();
                             contMotivos = motivos.Rows.Count - 1;
                             new FormAviso("Se ha ingresado el Motivo de Liberación.", 361, 132).ShowDialog();
+                            tbCodigoLiberacionML.Enabled = false;
                         }
                     }
                     else

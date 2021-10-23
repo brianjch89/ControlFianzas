@@ -16,7 +16,8 @@ namespace Vista
 {
     public partial class FormIntroducirNroFianzaAño : Form
     {
-        public string fianza, añoFianzas = string.Empty;
+        private long idfianza;
+        public string añoFianzas = string.Empty;
         public int año, cont = 0;
         public Boolean ban;
         public DataTable dt = new DataTable();
@@ -24,7 +25,7 @@ namespace Vista
 
         public FormIntroducirNroFianzaAño()
         {
-            fianza = string.Empty;
+            idfianza = long.MinValue;
             ban = false;
             InitializeComponent();
         }
@@ -71,35 +72,35 @@ namespace Vista
             {
                 if (Convert.ToInt32(tbAño.Text) >= 0)
                 {
-                    fianza = cbNroFianza.Text;
+                    idfianza = Convert.ToInt32(cbNroFianza.SelectedValue);
                     año = Convert.ToInt32(tbAño.Text);
                     if (año >= 0 && año <= 2005)
-                        dt = new ControladorIntroducirNroFianza().ObtenerFianza("SELECT [Nro de Fianza], [Fecha de Emision], [Nro Archivo], [Fecha de Vencimiento], [Fecha Recibida], Ano, g.Nombre_Garante, c.Nombre_Consignatario, a.Nombre_Agente, tf.DesTipFian AS NaturalezaOperacion, Asunto, Monto, Notaria, Tomo, Nro, [Fecha de Reg], o.NroOficio " +
+                        dt = new ControladorIntroducirNroFianza().ObtenerFianza("SELECT idNroFianza, [Nro de Fianza], [Fecha de Emision], [Nro Archivo], [Fecha de Vencimiento], [Fecha Recibida], Ano, g.Nombre_Garante, c.Nombre_Consignatario, a.Nombre_Agente, tf.DesTipFian AS NaturalezaOperacion, Asunto, Monto, Notaria, Tomo, Nro, [Fecha de Reg], o.NroOficio " +
                                                                                 "FROM ((((([Copia de Fianzas] AS f LEFT JOIN Garantes AS g ON (g.Rif_Garante = f.Garante)) " +
                                                                                 "LEFT JOIN Consignatarios AS c ON (c.Rif_Consignatario = f.[Rif Contribuyente])) " +
                                                                                 "LEFT JOIN Agentes AS a ON (a.Rif_Agentes = f.[Rif Agente])) " +
                                                                                 "LEFT JOIN [Tipo de Fianzas] AS tf ON (tf.Cod_Tf = f.Cod_Tf)) " +
                                                                                 "LEFT JOIN Oficios AS o ON (o.Id = f.NroOficio)) " +
-                                                                                "WHERE [Nro de Fianza] = '" + fianza + "' AND Ano = " + año);
+                                                                                "WHERE idNroFianza = " + idfianza); //"WHERE [Nro de Fianza] = '" + fianza + "' AND Ano = " + año);
 
                     if (año == 2004 || año == 2005)
                         if (dt.Rows.Count == 0)
-                            dt = new ControladorIntroducirNroFianza().ObtenerFianza("SELECT [Nro de Fianza], [Fecha de Emision], [Nro Archivo], [Fecha de Vencimiento], [Fecha Recibida], Ano, g.Nombre_Garante, c.Nombre_Consignatario, a.Nombre_Agente, tf.DesTipFian AS NaturalezaOperacion, Asunto, Monto, Notaria, Tomo, Nro, [Fecha de Reg], o.NroOficio " +
+                            dt = new ControladorIntroducirNroFianza().ObtenerFianza("SELECT idNroFianza, [Nro de Fianza], [Fecha de Emision], [Nro Archivo], [Fecha de Vencimiento], [Fecha Recibida], Ano, g.Nombre_Garante, c.Nombre_Consignatario, a.Nombre_Agente, tf.DesTipFian AS NaturalezaOperacion, Asunto, Monto, Notaria, Tomo, Nro, [Fecha de Reg], o.NroOficio " +
                                                                                     "FROM (((((Fianzas AS f LEFT JOIN Garantes AS g ON (g.Rif_Garante = f.Garante)) " +
                                                                                     "LEFT JOIN Consignatarios AS c ON (c.Rif_Consignatario = f.[Rif Contribuyente])) " +
                                                                                     "LEFT JOIN Agentes AS a ON (a.Rif_Agentes = f.[Rif Agente])) " +
                                                                                     "LEFT JOIN [Tipo de Fianzas] AS tf ON (tf.Cod_Tf = f.Cod_Tf)) " +
                                                                                     "LEFT JOIN Oficios AS o ON (o.Id = f.NroOficio)) " +
-                                                                                    "WHERE [Nro de Fianza] = '" + fianza + "' AND Ano = " + año);
+                                                                                    "WHERE idNroFianza = " + idfianza); //"WHERE [Nro de Fianza] = '" + fianza + "' AND Ano = " + año);
 
                     if (año >= 2006)
-                        dt = new ControladorIntroducirNroFianza().ObtenerFianza("SELECT [Nro de Fianza], [Fecha de Emision], [Nro Archivo], [Fecha de Vencimiento], [Fecha Recibida], Ano, g.Nombre_Garante, c.Nombre_Consignatario, a.Nombre_Agente, tf.DesTipFian AS NaturalezaOperacion, Asunto, Monto, Notaria, Tomo, Nro, [Fecha de Reg], o.NroOficio " +
+                        dt = new ControladorIntroducirNroFianza().ObtenerFianza("SELECT idNroFianza, [Nro de Fianza], [Fecha de Emision], [Nro Archivo], [Fecha de Vencimiento], [Fecha Recibida], Ano, g.Nombre_Garante, c.Nombre_Consignatario, a.Nombre_Agente, tf.DesTipFian AS NaturalezaOperacion, Asunto, Monto, Notaria, Tomo, Nro, [Fecha de Reg], o.NroOficio " +
                                                                                 "FROM (((((Fianzas AS f LEFT JOIN Garantes AS g ON (g.Rif_Garante = f.Garante)) " +
                                                                                 "LEFT JOIN Consignatarios AS c ON (c.Rif_Consignatario = f.[Rif Contribuyente])) " +
                                                                                 "LEFT JOIN Agentes AS a ON (a.Rif_Agentes = f.[Rif Agente])) " +
                                                                                 "LEFT JOIN [Tipo de Fianzas] AS tf ON (tf.Cod_Tf = f.Cod_Tf)) " +
                                                                                 "LEFT JOIN Oficios AS o ON (o.Id = f.NroOficio)) " +
-                                                                                "WHERE [Nro de Fianza] = '" + fianza + "' AND Ano = " + año);
+                                                                                "WHERE idNroFianza = " + idfianza); //"WHERE [Nro de Fianza] = '" + fianza + "' AND Ano = " + año);
 
                     if (dt.Rows.Count == 0)
                         new FormAviso("No se pudo hallar la fianza.", 262, 82).ShowDialog();
@@ -126,7 +127,7 @@ namespace Vista
         {
             cbNroFianza.DataSource = fianzas;
             cbNroFianza.DisplayMember = "Nro de Fianza";
-            cbNroFianza.ValueMember = "Nro de Fianza";
+            cbNroFianza.ValueMember = "idNroFianza";
             cbNroFianza.SelectedIndex = -1;
         }
         

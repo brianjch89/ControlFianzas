@@ -15,11 +15,11 @@ using System.Xml;
 
 namespace Vista
 {
-    public partial class FormMostrarEtiqueta : Form
+    public partial class FormMostrarEtiqueta_3_etiquetas : Form
     {
         DataGridView dgvFianzas;
 
-        public FormMostrarEtiqueta(DataGridView dgvF)
+        public FormMostrarEtiqueta_3_etiquetas(DataGridView dgvF)
         {
             dgvFianzas = dgvF;
             InitializeComponent();
@@ -44,10 +44,11 @@ namespace Vista
             reportParameters[11] = new ReportParameter("Param_TipoDeFianza3", dgvFianzas.Rows[2].Cells[4].Value.ToString());
             
             foreach (var item in reportParameters)
-                this.reportViewer1.LocalReport.SetParameters(item);
+                this.reportViewer_3_etiquetas.LocalReport.SetParameters(item);
 
-            this.reportViewer1.LocalReport.Refresh();
-            this.reportViewer1.RefreshReport();
+            this.reportViewer_3_etiquetas.LocalReport.Refresh();
+            this.reportViewer_3_etiquetas.RefreshReport();
+            this.reportViewer_3_etiquetas.RefreshReport();
         }
     }
 }

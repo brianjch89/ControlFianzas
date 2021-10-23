@@ -30,7 +30,7 @@ namespace Vista
             f.Add(fl); // FormEdicion
 
             FormNotificaciones fn = new FormNotificaciones();
-            DataTable dt = fn.c_Notificaciones.ObtenerFianzasPorVencer(DateTime.Today.Month);
+            DataTable dt = fn.c_Notificaciones.ObtenerFianzasPorVencer(DateTime.Today.Month, DateTime.Today.Year);
             if (dt.Rows.Count > 0) // Si hay fianzas por vencerse dentro de 3 meses...
                 btnNotificaciones.BackColor = ColorTranslator.FromHtml("#EC2E2E");
         }

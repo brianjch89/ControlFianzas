@@ -18,9 +18,9 @@ namespace Controlador
             return m_Liberacion.ObtenerFianzas();
         }
 
-        public DataTable ObtenerDatosLiberación(string NroFianza, int año) // Botones "Consulta" y "Liberación"
+        public DataTable ObtenerDatosLiberación(string idNroFianza, int año) // Botones "Consulta" y "Liberación"
         {
-            return m_Liberacion.ObtenerDatosLiberación(NroFianza, año);
+            return m_Liberacion.ObtenerDatosLiberación(idNroFianza, año);
         }
     }
 }

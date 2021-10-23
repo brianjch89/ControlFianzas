@@ -17,7 +17,8 @@ namespace Vista
     public partial class FormBuscarPredeterminado : Form
     {
         public Boolean ban;
-        public DataTable dt;
+        public DataTable predeterminados;
+        public DataRow fi = null;
         int opcion = int.MinValue;
 
         public FormBuscarPredeterminado(string etiqueta, int opc)
@@ -65,8 +66,10 @@ namespace Vista
             this.Close();
         }
 
-        public void setListado(DataTable predeterminados)
+        public void setListado(DataTable predeter)
         {
+            predeterminados = predeter;
+
             cbIngresarInformacion.DataSource = predeterminados;
 
             if (opcion == 1)
@@ -87,17 +90,17 @@ namespace Vista
             else if (opcion == 4)
             {
                 cbIngresarInformacion.DisplayMember = "DesTipFianza";
-                cbIngresarInformacion.ValueMember = "DesTipFianza";
+                cbIngresarInformacion.ValueMember = "Cod_Tf";
             }
             else if (opcion == 5)
             {
                 cbIngresarInformacion.DisplayMember = "NroOficio";
-                cbIngresarInformacion.ValueMember = "NroOficio";
+                cbIngresarInformacion.ValueMember = "Id";
             }
             else if (opcion == 6)
             {
                 cbIngresarInformacion.DisplayMember = "Nombre";
-                cbIngresarInformacion.ValueMember = "Nombre";
+                cbIngresarInformacion.ValueMember = "idGerente";
             }
             else
             {
@@ -113,18 +116,36 @@ namespace Vista
             {
                 if (cbIngresarInformacion.Text != string.Empty)
                 {
-                    dt = new ControladorActualizarInfo().BuscarPredeterminado("SELECT Rif_Consignatario, Nombre_Consignatario, Siglas, Representante, Dirección, Telefono, email FROM Consignatarios WHERE Rif_Consignatario = '" + cbIngresarInformacion.Text + "'", 1);
+                    foreach (DataRow fila in predeterminados.Rows)
+                        if (fila["Rif_Consignatario"].ToString().Equals(cbIngresarInformacion.Text)) // cbIngresarInformacion.SelectedValue.ToString()
+                        {
+                            ban = true;
+                            fi = fila;
+                            this.Close();
+                            break;
+                        }
 
-                    if (dt.Rows.Count == 0)
+                    if (fi == null)
                     {
                         new FormAviso("No se encontró el Consignatario.", 298, 100).ShowDialog();
                         cbIngresarInformacion.Focus();
                     }
-                    else
-                    {
-                        ban = true;
-                        this.Close();
-                    }
+
+
+
+
+                    //dt = new ControladorActualizarInfo().BuscarPredeterminado("SELECT Rif_Consignatario, Nombre_Consignatario, Siglas, Representante, Dirección, Telefono, email FROM Consignatarios WHERE Rif_Consignatario = '" + cbIngresarInformacion.Text + "'", 1);
+
+                    //if (dt.Rows.Count == 0)
+                    //{
+                    //    new FormAviso("No se encontró el Consignatario.", 298, 100).ShowDialog();
+                    //    cbIngresarInformacion.Focus();
+                    //}
+                    //else
+                    //{
+                    //    ban = true;
+                    //    this.Close();
+                    //}
                 }
                 else
                 {
@@ -136,18 +157,36 @@ namespace Vista
             {
                 if (cbIngresarInformacion.Text != string.Empty)
                 {
-                    dt = new ControladorActualizarInfo().BuscarPredeterminado("SELECT Rif_Agentes, Nombre_Agente, Siglas_Agente, Representante, [Domicilio Fiscal], Telefono FROM Agentes WHERE Rif_Agentes = '" + cbIngresarInformacion.Text + "'", 2);
+                    foreach (DataRow fila in predeterminados.Rows)
+                        if (fila["Rif_Agentes"].ToString().Equals(cbIngresarInformacion.Text)) // cbIngresarInformacion.SelectedValue.ToString()
+                        {
+                            ban = true;
+                            fi = fila;
+                            this.Close();
+                            break;
+                        }
 
-                    if (dt.Rows.Count == 0)
+                    if (fi == null)
                     {
                         new FormAviso("No se encontró el Agente.", 252, 77).ShowDialog();
                         cbIngresarInformacion.Focus();
                     }
-                    else
-                    {
-                        ban = true;
-                        this.Close();
-                    }
+
+
+
+
+                    //dt = new ControladorActualizarInfo().BuscarPredeterminado("SELECT Rif_Agentes, Nombre_Agente, Siglas_Agente, Representante, [Domicilio Fiscal], Telefono FROM Agentes WHERE Rif_Agentes = '" + cbIngresarInformacion.Text + "'", 2);
+
+                    //if (dt.Rows.Count == 0)
+                    //{
+                    //    new FormAviso("No se encontró el Agente.", 252, 77).ShowDialog();
+                    //    cbIngresarInformacion.Focus();
+                    //}
+                    //else
+                    //{
+                    //    ban = true;
+                    //    this.Close();
+                    //}
                 }
                 else
                 {
@@ -159,18 +198,36 @@ namespace Vista
             {
                 if (cbIngresarInformacion.Text != string.Empty)
                 {
-                    dt = new ControladorActualizarInfo().BuscarPredeterminado("SELECT Rif_Garante, Nombre_Garante, Siglas, Direccion, Telefono, Nro_Aprobacion, OficioNro, Fecha_Oficio FROM Garantes WHERE Rif_Garante = '" + cbIngresarInformacion.Text + "'", 3);
+                    foreach (DataRow fila in predeterminados.Rows)
+                        if (fila["Rif_Garante"].ToString().Equals(cbIngresarInformacion.Text)) // cbIngresarInformacion.SelectedValue.ToString()
+                        {
+                            ban = true;
+                            fi = fila;
+                            this.Close();
+                            break;
+                        }
 
-                    if (dt.Rows.Count == 0)
+                    if (fi == null)
                     {
                         new FormAviso("No se encontró el Garante.", 255, 79).ShowDialog();
                         cbIngresarInformacion.Focus();
                     }
-                    else
-                    {
-                        ban = true;
-                        this.Close();
-                    }
+
+
+
+
+                    //dt = new ControladorActualizarInfo().BuscarPredeterminado("SELECT Rif_Garante, Nombre_Garante, Siglas, Direccion, Telefono, Nro_Aprobacion, OficioNro, Fecha_Oficio FROM Garantes WHERE Rif_Garante = '" + cbIngresarInformacion.Text + "'", 3);
+
+                    //if (dt.Rows.Count == 0)
+                    //{
+                    //    new FormAviso("No se encontró el Garante.", 255, 79).ShowDialog();
+                    //    cbIngresarInformacion.Focus();
+                    //}
+                    //else
+                    //{
+                    //    ban = true;
+                    //    this.Close();
+                    //}
                 }
                 else
                 {
@@ -182,15 +239,33 @@ namespace Vista
             {
                 if (cbIngresarInformacion.Text != string.Empty)
                 {
-                    dt = new ControladorActualizarInfo().BuscarPredeterminado("SELECT * FROM [Tipo de Fianzas] WHERE DesTipFianza = '" + cbIngresarInformacion.Text + "'", 4);
+                    foreach (DataRow fila in predeterminados.Rows)
+                        if (fila["Cod_Tf"].ToString().Equals(Convert.ToInt32(cbIngresarInformacion.SelectedValue).ToString())) // cbIngresarInformacion.SelectedValue.ToString()
+                        {
+                            ban = true;
+                            fi = fila;
+                            this.Close();
+                            break;
+                        }
 
-                    if (dt.Rows.Count == 0)
-                        new FormAviso("No se encontró la Operacion.", 276, 89).ShowDialog();
-                    else
+                    if (fi == null)
                     {
-                        ban = true;
-                        this.Close();
+                        new FormAviso("No se encontró la Operacion.", 276, 89).ShowDialog();
+                        cbIngresarInformacion.Focus();
                     }
+
+
+
+
+                    //dt = new ControladorActualizarInfo().BuscarPredeterminado("SELECT * FROM [Tipo de Fianzas] WHERE DesTipFianza = '" + cbIngresarInformacion.Text + "'", 4);
+
+                    //if (dt.Rows.Count == 0)
+                    //    new FormAviso("No se encontró la Operacion.", 276, 89).ShowDialog();
+                    //else
+                    //{
+                    //    ban = true;
+                    //    this.Close();
+                    //}
                 }
                 else
                 {
@@ -202,18 +277,36 @@ namespace Vista
             {
                 if (cbIngresarInformacion.Text != string.Empty)
                 {
-                    dt = new ControladorActualizarInfo().BuscarPredeterminado("SELECT NroOficio, [Fecha de Oficio], Fecha_Vence, tf.DesTipFian AS TipoDeFianza, c.Nombre_Consignatario " +
-                                                                              "FROM ((Oficios AS o LEFT JOIN [Tipo de Fianzas] AS tf ON (o.Cod_Tipo = tf.Cod_Tf)) " +
-                                                                              "LEFT JOIN Consignatarios AS c ON (o.Rif = c.Rif_Consignatario)) " +
-                                                                              "WHERE NroOficio = '" + cbIngresarInformacion.Text + "'", 5);
+                    foreach (DataRow fila in predeterminados.Rows)
+                        if (fila["Id"].ToString().Equals(Convert.ToInt32(cbIngresarInformacion.SelectedValue).ToString())) // cbIngresarInformacion.SelectedValue.ToString()
+                        {
+                            ban = true;
+                            fi = fila;
+                            this.Close();
+                            break;
+                        }
 
-                    if (dt.Rows.Count == 0)
-                        new FormAviso("No se encontró el Oficio.", 243, 73).ShowDialog();
-                    else
+                    if (fi == null)
                     {
-                        ban = true;
-                        this.Close();
+                        new FormAviso("No se encontró el Oficio.", 243, 73).ShowDialog();
+                        cbIngresarInformacion.Focus();
                     }
+
+
+
+
+                    //dt = new ControladorActualizarInfo().BuscarPredeterminado("SELECT NroOficio, [Fecha de Oficio], Fecha_Vence, tf.DesTipFian AS TipoDeFianza, c.Nombre_Consignatario " +
+                    //                                                          "FROM ((Oficios AS o LEFT JOIN [Tipo de Fianzas] AS tf ON (o.Cod_Tipo = tf.Cod_Tf)) " +
+                    //                                                          "LEFT JOIN Consignatarios AS c ON (o.Rif = c.Rif_Consignatario)) " +
+                    //                                                          "WHERE NroOficio = '" + cbIngresarInformacion.Text + "'", 5);
+
+                    //if (dt.Rows.Count == 0)
+                    //    new FormAviso("No se encontró el Oficio.", 243, 73).ShowDialog();
+                    //else
+                    //{
+                    //    ban = true;
+                    //    this.Close();
+                    //}
                 }
                 else
                 {
@@ -225,15 +318,33 @@ namespace Vista
             {
                 if (cbIngresarInformacion.Text != string.Empty)
                 {
-                    dt = new ControladorActualizarInfo().BuscarPredeterminado("SELECT * FROM Gerente WHERE Nombre = '" + cbIngresarInformacion.Text + "'", 6);
+                    foreach (DataRow fila in predeterminados.Rows)
+                        if (fila["idGerente"].ToString().Equals(Convert.ToByte(cbIngresarInformacion.SelectedValue).ToString())) // cbIngresarInformacion.SelectedValue.ToString()
+                        {
+                            ban = true;
+                            fi = fila;
+                            this.Close();
+                            break;
+                        }
 
-                    if (dt.Rows.Count == 0)
-                        new FormAviso("No se encontró al Gerente.", 262, 82).ShowDialog();
-                    else
+                    if (fi == null)
                     {
-                        ban = true;
-                        this.Close();
+                        new FormAviso("No se encontró al Gerente.", 262, 82).ShowDialog();
+                        cbIngresarInformacion.Focus();
                     }
+
+
+
+
+                    //dt = new ControladorActualizarInfo().BuscarPredeterminado("SELECT * FROM Gerente WHERE Nombre = '" + cbIngresarInformacion.Text + "'", 6);
+
+                    //if (dt.Rows.Count == 0)
+                    //    new FormAviso("No se encontró al Gerente.", 262, 82).ShowDialog();
+                    //else
+                    //{
+                    //    ban = true;
+                    //    this.Close();
+                    //}
                 }
                 else
                 {
@@ -245,13 +356,32 @@ namespace Vista
             {
                 if (cbIngresarInformacion.Text != string.Empty)
                 {
-                    dt = new ControladorActualizarInfo().BuscarPredeterminado("SELECT * FROM Motivos WHERE Descripcion = '" + cbIngresarInformacion.Text + "'", 7);
+                    //foreach (DataRow fila in predeterminados.Rows)
+                    //    if (fila["Cod_Lib"].ToString().Equals(Convert.ToByte(cbIngresarInformacion.SelectedValue).ToString())) // cbIngresarInformacion.SelectedValue.ToString()
+                    //    {
+                    //        ban = true;
+                    //        fi = fila;
+                    //        this.Close();
+                    //        break;
+                    //    }
+
+                    //if (fi == null)
+                    //{
+                    //    new FormAviso("No se encontró el Motivo de Liberación.", 353, 128).ShowDialog();
+                    //    cbIngresarInformacion.Focus();
+                    //}
+
+
+
+
+                    DataTable dt = new ControladorActualizarInfo().BuscarPredeterminado("SELECT * FROM Motivos WHERE Descripcion = '" + cbIngresarInformacion.Text + "'", 7);
 
                     if (dt.Rows.Count == 0)
                         new FormAviso("No se encontró el Motivo de Liberación.", 353, 128).ShowDialog();
                     else
                     {
                         ban = true;
+                        fi = dt.Rows[0];
                         this.Close();
                     }
                 }

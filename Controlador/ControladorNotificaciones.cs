@@ -13,9 +13,9 @@ namespace Controlador
     {
         ModeloNotificaciones m_Notificaciones = new ModeloNotificaciones();
 
-        public DataTable ObtenerFianzasPorVencer(int mes)
+        public DataTable ObtenerFianzasPorVencer(int mes, int año)
         {
-            return m_Notificaciones.ObtenerFianzasPorVencer(mes);
+            return m_Notificaciones.ObtenerFianzasPorVencer(mes, año);
         }
     }
 }

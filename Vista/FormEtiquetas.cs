@@ -26,7 +26,7 @@ namespace Vista
             InitializeComponent();
             fianzas = f;
             btnAgregarFianza.Text = "Agregar (" + cont + ")";
-            btnGenerarEtiquetas.Enabled = false;
+            //btnGenerarEtiquetas.Enabled = false;
 
             dgvEtiquetasFianza.Rows.Clear();
             tbAño.Text = año.ToString();
@@ -37,6 +37,7 @@ namespace Vista
             tbTipoDeFianza.Text = tipoDeFianza;
 
             dgvEtiquetasFianza.Rows.Add(cbNroFianza.Text, tbAño.Text, tbArchivo.Text, tbNombreConsignatario.Text, tbTipoDeFianza.Text);
+            dtgFianzas = dgvEtiquetasFianza;
         }
 
         // Para dar sombra a la ventada
@@ -79,61 +80,35 @@ namespace Vista
         {
             cbNroFianza.DataSource = fianzas;
             cbNroFianza.DisplayMember = "Nro de Fianza";
-            cbNroFianza.ValueMember = "Nro de Fianza";
+            cbNroFianza.ValueMember = "idNroFianza";
         }
 
         private void cbNroFianza_SelectedIndexChanged(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
+            ListarNroFianzas();
+            long idFianza = Convert.ToInt32(cbNroFianza.SelectedValue);
 
-            if (Convert.ToInt32(tbAño.Text) >= 1996 && Convert.ToInt32(tbAño.Text) <= 2005)
-                dt = c_Etiquetas.ObtenerFianza("SELECT [Nro de Fianza], [Fecha de Emision], [Nro Archivo], [Fecha de Vencimiento], [Fecha Recibida], Ano, g.Nombre_Garante, c.Nombre_Consignatario, a.Nombre_Agente, tf.DesTipFian AS NaturalezaOperacion, Asunto, Monto, Notaria, Tomo, Nro, [Fecha de Reg], o.NroOficio " +
-                                               "FROM ((((([Copia de Fianzas] AS f LEFT JOIN Garantes AS g ON (g.Rif_Garante = f.Garante)) " +
-                                               "LEFT JOIN Consignatarios AS c ON (c.Rif_Consignatario = f.[Rif Contribuyente])) " +
-                                               "LEFT JOIN Agentes AS a ON (a.Rif_Agentes = f.[Rif Agente])) " +
-                                               "LEFT JOIN [Tipo de Fianzas] AS tf ON (tf.Cod_Tf = f.Cod_Tf)) " +
-                                               "LEFT JOIN Oficios AS o ON (o.Id = f.NroOficio)) " +
-                                               "WHERE [Nro de Fianza] = '" + Convert.ToString(cbNroFianza.SelectedValue) + "' AND Ano = " + Convert.ToInt32(tbAño.Text));
-
-            if (Convert.ToInt32(tbAño.Text) == 2004 || Convert.ToInt32(tbAño.Text) == 2005)
-                if (dt.Rows.Count == 0)
-                    dt = c_Etiquetas.ObtenerFianza("SELECT [Nro de Fianza], [Fecha de Emision], [Nro Archivo], [Fecha de Vencimiento], [Fecha Recibida], Ano, g.Nombre_Garante, c.Nombre_Consignatario, a.Nombre_Agente, tf.DesTipFian AS NaturalezaOperacion, Asunto, Monto, Notaria, Tomo, Nro, [Fecha de Reg], o.NroOficio " +
-                                                   "FROM (((((Fianzas AS f LEFT JOIN Garantes AS g ON (g.Rif_Garante = f.Garante)) " +
-                                                   "LEFT JOIN Consignatarios AS c ON (c.Rif_Consignatario = f.[Rif Contribuyente])) " +
-                                                   "LEFT JOIN Agentes AS a ON (a.Rif_Agentes = f.[Rif Agente])) " +
-                                                   "LEFT JOIN [Tipo de Fianzas] AS tf ON (tf.Cod_Tf = f.Cod_Tf)) " +
-                                                   "LEFT JOIN Oficios AS o ON (o.Id = f.NroOficio)) " +
-                                                   "WHERE [Nro de Fianza] = '" + Convert.ToString(cbNroFianza.SelectedValue) + "' AND Ano = " + Convert.ToInt32(tbAño.Text));
-
-            if (Convert.ToInt32(tbAño.Text) >= 2006)
-                dt = c_Etiquetas.ObtenerFianza("SELECT [Nro de Fianza], [Fecha de Emision], [Nro Archivo], [Fecha de Vencimiento], [Fecha Recibida], Ano, g.Nombre_Garante, c.Nombre_Consignatario, a.Nombre_Agente, tf.DesTipFian AS NaturalezaOperacion, Asunto, Monto, Notaria, Tomo, Nro, [Fecha de Reg], o.NroOficio " +
-                                               "FROM (((((Fianzas AS f LEFT JOIN Garantes AS g ON (g.Rif_Garante = f.Garante)) " +
-                                               "LEFT JOIN Consignatarios AS c ON (c.Rif_Consignatario = f.[Rif Contribuyente])) " +
-                                               "LEFT JOIN Agentes AS a ON (a.Rif_Agentes = f.[Rif Agente])) " +
-                                               "LEFT JOIN [Tipo de Fianzas] AS tf ON (tf.Cod_Tf = f.Cod_Tf)) " +
-                                               "LEFT JOIN Oficios AS o ON (o.Id = f.NroOficio)) " +
-                                               "WHERE [Nro de Fianza] = '" + Convert.ToString(cbNroFianza.SelectedValue) + "' AND Ano = " + Convert.ToInt32(tbAño.Text));
-
-            DataRow dr = dt.NewRow();
-            if (dt.Rows.Count > 0)
+            foreach (DataRow fila in fianzas.Rows)
             {
-                dr = dt.Rows[0];
-
-                cbNroFianza.Text = Convert.ToString(cbNroFianza.SelectedValue);
-                tbAño.Text = dr["Ano"].ToString();
-                tbArchivo.Text = dr["Nro Archivo"].ToString();
-                tbNombreConsignatario.Text = dr["Nombre_Consignatario"].ToString();
-                tbTipoDeFianza.Text = dr["NaturalezaOperacion"].ToString();
+                if (fila["idNroFianza"].ToString().Equals(idFianza.ToString()))
+                {
+                    cbNroFianza.Text = fila["Nro de Fianza"].ToString();
+                    tbAño.Text = fila["Ano"].ToString();
+                    tbArchivo.Text = fila["Nro Archivo"].ToString();
+                    tbNombreConsignatario.Text = fila["Nombre_Consignatario"].ToString();
+                    tbTipoDeFianza.Text = fila["NaturalezaOperacion"].ToString();
+                }
             }
         }
 
         private void btnAgregarFianza_Click(object sender, EventArgs e)
         {
             btnEliminarFianza.Enabled = true;
+            btnGenerarEtiquetas.Enabled = true;
             bool ban = true;
-            for (int i = 0; i < dgvEtiquetasFianza.Rows.Count; i++)
+            foreach (DataGridViewRow fila in dgvEtiquetasFianza.Rows)
             {
-                DataGridViewRow fila = dgvEtiquetasFianza.Rows[i];
                 if (fila.Cells[0].Value.ToString().Equals(cbNroFianza.Text))
                 {
                     new FormAviso("El número de fianza ya está en la lista. Por favor, verifique los datos.", 545, 223).ShowDialog();
@@ -148,10 +123,11 @@ namespace Vista
                 btnAgregarFianza.Text = "Agregar (" + ++cont + ")";
                 if (cont == 3)
                 {
-                    btnGenerarEtiquetas.Enabled = true;
+                    //btnGenerarEtiquetas.Enabled = true;
                     btnAgregarFianza.Enabled = false;
-                    dtgFianzas = dgvEtiquetasFianza;
+                    //dtgFianzas = dgvEtiquetasFianza;
                 }
+                dtgFianzas = dgvEtiquetasFianza;
             }
         }
 
@@ -166,7 +142,7 @@ namespace Vista
             if (cont == 3)
             {
                 btnAgregarFianza.Enabled = true;
-                btnGenerarEtiquetas.Enabled = false;
+                //btnGenerarEtiquetas.Enabled = false;
             }
 
             dgvEtiquetasFianza.Rows.RemoveAt(dgvEtiquetasFianza.CurrentRow.Index);
@@ -180,7 +156,7 @@ namespace Vista
             }
         }
 
-        private void tbAño_KeyPress(object sender, KeyPressEventArgs e)
+        private void BloquearTextField(object sender, KeyPressEventArgs e)
         {
             if (Char.IsDigit(e.KeyChar))
                 e.Handled = true;
@@ -188,36 +164,26 @@ namespace Vista
                 e.Handled = true;
             else
                 e.Handled = true;
+        }
+
+        private void tbAño_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            BloquearTextField(sender, e);
         }
 
         private void tbArchivo_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (Char.IsDigit(e.KeyChar))
-                e.Handled = true;
-            else if (Char.IsControl(e.KeyChar))
-                e.Handled = true;
-            else
-                e.Handled = true;
+            BloquearTextField(sender, e);
         }
 
         private void tbNombreConsignatario_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (Char.IsDigit(e.KeyChar))
-                e.Handled = true;
-            else if (Char.IsControl(e.KeyChar))
-                e.Handled = true;
-            else
-                e.Handled = true;
+            BloquearTextField(sender, e);
         }
 
         private void tbTipoDeFianza_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (Char.IsDigit(e.KeyChar))
-                e.Handled = true;
-            else if (Char.IsControl(e.KeyChar))
-                e.Handled = true;
-            else
-                e.Handled = true;
+            BloquearTextField(sender, e);
         }
     }
 }

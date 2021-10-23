@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEtiquetas));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lNroFianza = new System.Windows.Forms.Label();
             this.tbAño = new System.Windows.Forms.TextBox();
             this.lAño = new System.Windows.Forms.Label();
@@ -66,10 +66,10 @@
             this.lNroFianza.AutoSize = true;
             this.lNroFianza.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
             this.lNroFianza.ForeColor = System.Drawing.Color.Lavender;
-            this.lNroFianza.Location = new System.Drawing.Point(708, 66);
+            this.lNroFianza.Location = new System.Drawing.Point(944, 81);
             this.lNroFianza.Margin = new System.Windows.Forms.Padding(0);
             this.lNroFianza.Name = "lNroFianza";
-            this.lNroFianza.Size = new System.Drawing.Size(113, 18);
+            this.lNroFianza.Size = new System.Drawing.Size(142, 23);
             this.lNroFianza.TabIndex = 2;
             this.lNroFianza.Text = "Nro. de Fianza";
             // 
@@ -77,11 +77,11 @@
             // 
             this.tbAño.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
             this.tbAño.ForeColor = System.Drawing.Color.Maroon;
-            this.tbAño.Location = new System.Drawing.Point(830, 100);
+            this.tbAño.Location = new System.Drawing.Point(1107, 123);
             this.tbAño.Margin = new System.Windows.Forms.Padding(0);
             this.tbAño.MaxLength = 4;
             this.tbAño.Name = "tbAño";
-            this.tbAño.Size = new System.Drawing.Size(52, 26);
+            this.tbAño.Size = new System.Drawing.Size(68, 30);
             this.tbAño.TabIndex = 4;
             this.tbAño.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbAño.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbAño_KeyPress);
@@ -91,10 +91,10 @@
             this.lAño.AutoSize = true;
             this.lAño.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
             this.lAño.ForeColor = System.Drawing.Color.Lavender;
-            this.lAño.Location = new System.Drawing.Point(786, 103);
+            this.lAño.Location = new System.Drawing.Point(1048, 127);
             this.lAño.Margin = new System.Windows.Forms.Padding(0);
             this.lAño.Name = "lAño";
-            this.lAño.Size = new System.Drawing.Size(38, 18);
+            this.lAño.Size = new System.Drawing.Size(47, 23);
             this.lAño.TabIndex = 15;
             this.lAño.Text = "Año";
             // 
@@ -103,9 +103,10 @@
             this.lArchivo.AutoSize = true;
             this.lArchivo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
             this.lArchivo.ForeColor = System.Drawing.Color.Lavender;
-            this.lArchivo.Location = new System.Drawing.Point(698, 143);
+            this.lArchivo.Location = new System.Drawing.Point(931, 176);
+            this.lArchivo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lArchivo.Name = "lArchivo";
-            this.lArchivo.Size = new System.Drawing.Size(123, 18);
+            this.lArchivo.Size = new System.Drawing.Size(153, 23);
             this.lArchivo.TabIndex = 20;
             this.lArchivo.Text = "Nro. de Archivo";
             // 
@@ -113,9 +114,10 @@
             // 
             this.tbArchivo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
             this.tbArchivo.ForeColor = System.Drawing.Color.Maroon;
-            this.tbArchivo.Location = new System.Drawing.Point(830, 140);
+            this.tbArchivo.Location = new System.Drawing.Point(1107, 172);
+            this.tbArchivo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbArchivo.Name = "tbArchivo";
-            this.tbArchivo.Size = new System.Drawing.Size(52, 26);
+            this.tbArchivo.Size = new System.Drawing.Size(68, 30);
             this.tbArchivo.TabIndex = 5;
             this.tbArchivo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbArchivo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbArchivo_KeyPress);
@@ -125,19 +127,21 @@
             this.lContribuyente.AutoSize = true;
             this.lContribuyente.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
             this.lContribuyente.ForeColor = System.Drawing.Color.Lavender;
-            this.lContribuyente.Location = new System.Drawing.Point(708, 180);
+            this.lContribuyente.Location = new System.Drawing.Point(944, 222);
+            this.lContribuyente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lContribuyente.Name = "lContribuyente";
-            this.lContribuyente.Size = new System.Drawing.Size(113, 18);
+            this.lContribuyente.Size = new System.Drawing.Size(141, 23);
             this.lContribuyente.TabIndex = 21;
             this.lContribuyente.Text = "Contribuyente";
             // 
             // tbNombreConsignatario
             // 
             this.tbNombreConsignatario.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tbNombreConsignatario.Location = new System.Drawing.Point(830, 177);
+            this.tbNombreConsignatario.Location = new System.Drawing.Point(1107, 218);
+            this.tbNombreConsignatario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbNombreConsignatario.MaxLength = 255;
             this.tbNombreConsignatario.Name = "tbNombreConsignatario";
-            this.tbNombreConsignatario.Size = new System.Drawing.Size(240, 26);
+            this.tbNombreConsignatario.Size = new System.Drawing.Size(319, 30);
             this.tbNombreConsignatario.TabIndex = 6;
             this.tbNombreConsignatario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbNombreConsignatario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbNombreConsignatario_KeyPress);
@@ -147,9 +151,10 @@
             this.lNaturalezaOperacion.AutoSize = true;
             this.lNaturalezaOperacion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
             this.lNaturalezaOperacion.ForeColor = System.Drawing.Color.Lavender;
-            this.lNaturalezaOperacion.Location = new System.Drawing.Point(606, 218);
+            this.lNaturalezaOperacion.Location = new System.Drawing.Point(808, 268);
+            this.lNaturalezaOperacion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lNaturalezaOperacion.Name = "lNaturalezaOperacion";
-            this.lNaturalezaOperacion.Size = new System.Drawing.Size(215, 18);
+            this.lNaturalezaOperacion.Size = new System.Drawing.Size(270, 23);
             this.lNaturalezaOperacion.TabIndex = 24;
             this.lNaturalezaOperacion.Text = "Naturaleza de la Operación";
             // 
@@ -157,10 +162,10 @@
             // 
             this.lIntroduzcaAño.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
             this.lIntroduzcaAño.ForeColor = System.Drawing.Color.LightGreen;
-            this.lIntroduzcaAño.Location = new System.Drawing.Point(32, 72);
+            this.lIntroduzcaAño.Location = new System.Drawing.Point(43, 89);
             this.lIntroduzcaAño.Margin = new System.Windows.Forms.Padding(0);
             this.lIntroduzcaAño.Name = "lIntroduzcaAño";
-            this.lIntroduzcaAño.Size = new System.Drawing.Size(549, 38);
+            this.lIntroduzcaAño.Size = new System.Drawing.Size(732, 47);
             this.lIntroduzcaAño.TabIndex = 9;
             this.lIntroduzcaAño.Text = "Ingrese el Número de Fianza para poder generar la etiqueta de la misma";
             this.lIntroduzcaAño.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -174,9 +179,10 @@
             this.btnAgregarFianza.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregarFianza.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarFianza.ForeColor = System.Drawing.Color.White;
-            this.btnAgregarFianza.Location = new System.Drawing.Point(654, 270);
+            this.btnAgregarFianza.Location = new System.Drawing.Point(872, 332);
+            this.btnAgregarFianza.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAgregarFianza.Name = "btnAgregarFianza";
-            this.btnAgregarFianza.Size = new System.Drawing.Size(161, 32);
+            this.btnAgregarFianza.Size = new System.Drawing.Size(215, 39);
             this.btnAgregarFianza.TabIndex = 1;
             this.btnAgregarFianza.UseVisualStyleBackColor = false;
             this.btnAgregarFianza.Click += new System.EventHandler(this.btnAgregarFianza_Click);
@@ -190,9 +196,10 @@
             this.btnGenerarEtiquetas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGenerarEtiquetas.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerarEtiquetas.ForeColor = System.Drawing.Color.White;
-            this.btnGenerarEtiquetas.Location = new System.Drawing.Point(830, 270);
+            this.btnGenerarEtiquetas.Location = new System.Drawing.Point(1107, 332);
+            this.btnGenerarEtiquetas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGenerarEtiquetas.Name = "btnGenerarEtiquetas";
-            this.btnGenerarEtiquetas.Size = new System.Drawing.Size(161, 32);
+            this.btnGenerarEtiquetas.Size = new System.Drawing.Size(215, 39);
             this.btnGenerarEtiquetas.TabIndex = 2;
             this.btnGenerarEtiquetas.Text = "Generar Etiquetas";
             this.btnGenerarEtiquetas.UseVisualStyleBackColor = false;
@@ -201,10 +208,11 @@
             // tbTipoDeFianza
             // 
             this.tbTipoDeFianza.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tbTipoDeFianza.Location = new System.Drawing.Point(830, 215);
+            this.tbTipoDeFianza.Location = new System.Drawing.Point(1107, 265);
+            this.tbTipoDeFianza.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbTipoDeFianza.MaxLength = 255;
             this.tbTipoDeFianza.Name = "tbTipoDeFianza";
-            this.tbTipoDeFianza.Size = new System.Drawing.Size(240, 26);
+            this.tbTipoDeFianza.Size = new System.Drawing.Size(319, 30);
             this.tbTipoDeFianza.TabIndex = 7;
             this.tbTipoDeFianza.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbTipoDeFianza.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbTipoDeFianza_KeyPress);
@@ -216,8 +224,9 @@
             this.BarraTitulo.Controls.Add(this.btnCerrar);
             this.BarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.BarraTitulo.Location = new System.Drawing.Point(0, 0);
+            this.BarraTitulo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BarraTitulo.Name = "BarraTitulo";
-            this.BarraTitulo.Size = new System.Drawing.Size(1115, 38);
+            this.BarraTitulo.Size = new System.Drawing.Size(1487, 47);
             this.BarraTitulo.TabIndex = 38;
             this.BarraTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BarraTitulo_MouseDown);
             // 
@@ -227,9 +236,10 @@
             this.lInformacionEtiquetas.Font = new System.Drawing.Font("Century Gothic", 11.25F);
             this.lInformacionEtiquetas.ForeColor = System.Drawing.Color.White;
             this.lInformacionEtiquetas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lInformacionEtiquetas.Location = new System.Drawing.Point(3, 9);
+            this.lInformacionEtiquetas.Location = new System.Drawing.Point(4, 11);
+            this.lInformacionEtiquetas.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lInformacionEtiquetas.Name = "lInformacionEtiquetas";
-            this.lInformacionEtiquetas.Size = new System.Drawing.Size(230, 20);
+            this.lInformacionEtiquetas.Size = new System.Drawing.Size(287, 22);
             this.lInformacionEtiquetas.TabIndex = 10;
             this.lInformacionEtiquetas.Text = "Información para las Etiquetas";
             this.lInformacionEtiquetas.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lInformacionEtiquetas_MouseDown);
@@ -239,9 +249,10 @@
             this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
-            this.btnCerrar.Location = new System.Drawing.Point(1080, 6);
+            this.btnCerrar.Location = new System.Drawing.Point(1440, 7);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(25, 25);
+            this.btnCerrar.Size = new System.Drawing.Size(33, 31);
             this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnCerrar.TabIndex = 0;
             this.btnCerrar.TabStop = false;
@@ -253,14 +264,14 @@
             this.dgvEtiquetasFianza.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
             this.dgvEtiquetasFianza.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvEtiquetasFianza.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvEtiquetasFianza.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEtiquetasFianza.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvEtiquetasFianza.ColumnHeadersHeight = 30;
             this.dgvEtiquetasFianza.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvEtiquetasFianza.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -271,27 +282,28 @@
             this.NaturalezaDeLaOperación});
             this.dgvEtiquetasFianza.EnableHeadersVisualStyles = false;
             this.dgvEtiquetasFianza.GridColor = System.Drawing.Color.SteelBlue;
-            this.dgvEtiquetasFianza.Location = new System.Drawing.Point(33, 126);
+            this.dgvEtiquetasFianza.Location = new System.Drawing.Point(44, 155);
+            this.dgvEtiquetasFianza.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvEtiquetasFianza.Name = "dgvEtiquetasFianza";
             this.dgvEtiquetasFianza.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvEtiquetasFianza.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEtiquetasFianza.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvEtiquetasFianza.RowHeadersVisible = false;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvEtiquetasFianza.RowsDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            this.dgvEtiquetasFianza.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvEtiquetasFianza.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvEtiquetasFianza.Size = new System.Drawing.Size(544, 119);
+            this.dgvEtiquetasFianza.Size = new System.Drawing.Size(725, 146);
             this.dgvEtiquetasFianza.TabIndex = 8;
             // 
             // NroDeFianza
@@ -333,9 +345,10 @@
             this.cbNroFianza.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
             this.cbNroFianza.ForeColor = System.Drawing.Color.Maroon;
             this.cbNroFianza.FormattingEnabled = true;
-            this.cbNroFianza.Location = new System.Drawing.Point(830, 63);
+            this.cbNroFianza.Location = new System.Drawing.Point(1107, 78);
+            this.cbNroFianza.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbNroFianza.Name = "cbNroFianza";
-            this.cbNroFianza.Size = new System.Drawing.Size(250, 26);
+            this.cbNroFianza.Size = new System.Drawing.Size(332, 31);
             this.cbNroFianza.TabIndex = 3;
             this.cbNroFianza.SelectedIndexChanged += new System.EventHandler(this.cbNroFianza_SelectedIndexChanged);
             // 
@@ -348,9 +361,10 @@
             this.btnEliminarFianza.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminarFianza.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarFianza.ForeColor = System.Drawing.Color.White;
-            this.btnEliminarFianza.Location = new System.Drawing.Point(33, 270);
+            this.btnEliminarFianza.Location = new System.Drawing.Point(44, 332);
+            this.btnEliminarFianza.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEliminarFianza.Name = "btnEliminarFianza";
-            this.btnEliminarFianza.Size = new System.Drawing.Size(161, 32);
+            this.btnEliminarFianza.Size = new System.Drawing.Size(215, 39);
             this.btnEliminarFianza.TabIndex = 39;
             this.btnEliminarFianza.Text = "Eliminar Fianza";
             this.btnEliminarFianza.UseVisualStyleBackColor = false;
@@ -360,19 +374,20 @@
             // 
             this.lFecha.Font = new System.Drawing.Font("Century Gothic", 11F);
             this.lFecha.ForeColor = System.Drawing.Color.Lime;
-            this.lFecha.Location = new System.Drawing.Point(215, 264);
+            this.lFecha.Location = new System.Drawing.Point(287, 325);
+            this.lFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lFecha.Name = "lFecha";
-            this.lFecha.Size = new System.Drawing.Size(241, 46);
+            this.lFecha.Size = new System.Drawing.Size(321, 57);
             this.lFecha.TabIndex = 40;
             this.lFecha.Text = "Presione este botón para eliminar una fianza ingresada por error.";
             this.lFecha.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FormEtiquetas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            this.ClientSize = new System.Drawing.Size(1115, 325);
+            this.ClientSize = new System.Drawing.Size(1487, 400);
             this.Controls.Add(this.lFecha);
             this.Controls.Add(this.btnEliminarFianza);
             this.Controls.Add(this.cbNroFianza);
@@ -392,6 +407,7 @@
             this.Controls.Add(this.lNroFianza);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormEtiquetas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Información para las Etiquetas";

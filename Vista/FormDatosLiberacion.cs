@@ -18,11 +18,13 @@ namespace Vista
     {
         ControladorDatosLiberacion c_DatosLiberacion = new ControladorDatosLiberacion();
         int año;
+        string idFianza;
 
-        public FormDatosLiberacion()
+        public FormDatosLiberacion(string idF)
         {
             InitializeComponent();
             ListarMotivosLiberacion();
+            idFianza = idF;
         }
 
         // Para dar sombra a la ventada
@@ -132,13 +134,13 @@ namespace Vista
                 if (año >= 0 && año <= 2005)
                 {
                     // Si la fianza aún no se ha liberado...
-                    if (c_DatosLiberacion.Cadena("SELECT [Fecha Liberacion] FROM [Copia de Fianzas] WHERE [Nro de Fianza] = '" + tbNroFianza.Text + "'", "Fecha Liberacion").Equals(string.Empty))
+                    if (c_DatosLiberacion.Cadena("SELECT [Fecha Liberacion] FROM [Copia de Fianzas] WHERE idNroFianza = " + Convert.ToInt32(idFianza), "Fecha Liberacion").Equals(string.Empty))
                     {
                         // Primero obtengo el código del motivo de liberación de la fianza.
                         int codigo = Convert.ToInt32(c_DatosLiberacion.Cadena("SELECT Cod_Lib FROM Motivos WHERE Descripcion = '" + cbMotivoLibe.Text + "'", "Cod_Lib"));
 
-                        //Luego almaceno la información de la liberación de la fianza.
-                        filasAfectadas = c_DatosLiberacion.LiberarFianza("UPDATE [Copia de Fianzas] SET [Fecha Liberacion] = '" + dtpFechaLiberacion.Value.Date + "', Cod_Lib = " + codigo + " WHERE [Nro de Fianza] = '" + tbNroFianza.Text + "'");
+                        // Luego almaceno la información de la liberación de la fianza.
+                        filasAfectadas = c_DatosLiberacion.LiberarFianza("UPDATE [Copia de Fianzas] SET [Fecha Liberacion] = '" + dtpFechaLiberacion.Value.Date + "', Cod_Lib = " + codigo + " WHERE idNroFianza = " + Convert.ToInt32(idFianza));
                         if (filasAfectadas > 0)
                             // Por último, se avisa al usuario que la fianza ha sido liberada.
                             new FormAviso("La fianza se ha liberado exitosamente.", 336, 119).ShowDialog();
@@ -148,8 +150,8 @@ namespace Vista
                         // Primero obtengo el código del motivo de liberación de la fianza.
                         int codigo = Convert.ToInt32(c_DatosLiberacion.Cadena("SELECT Cod_Lib FROM Motivos WHERE Descripcion = '" + cbMotivoLibe.Text + "'", "Cod_Lib"));
 
-                        //Luego almaceno la información de la liberación de la fianza.
-                        filasAfectadas = c_DatosLiberacion.LiberarFianza("UPDATE [Copia de Fianzas] SET [Fecha Liberacion] = '" + dtpFechaLiberacion.Value.Date + "', Cod_Lib = " + codigo + " WHERE [Nro de Fianza] = '" + tbNroFianza.Text + "'");
+                        // Luego almaceno la información de la liberación de la fianza.
+                        filasAfectadas = c_DatosLiberacion.LiberarFianza("UPDATE [Copia de Fianzas] SET [Fecha Liberacion] = '" + dtpFechaLiberacion.Value.Date + "', Cod_Lib = " + codigo + " WHERE idNroFianza = " + Convert.ToInt32(idFianza));
                         if (filasAfectadas > 0)
                             // Por último, se avisa al usuario que ha sido actualizado los datos de liberación de la fianza.
                             new FormAviso("Los datos de liberación han sido actualizados.", 390, 146).ShowDialog();
@@ -161,13 +163,13 @@ namespace Vista
                     if (filasAfectadas == 0)
                     {
                         // Si la fianza aún no se ha liberado...
-                        if (c_DatosLiberacion.Cadena("SELECT [Fecha Liberacion] FROM Fianzas WHERE [Nro de Fianza] = '" + tbNroFianza.Text + "'", "Fecha Liberacion").Equals(string.Empty))
+                        if (c_DatosLiberacion.Cadena("SELECT [Fecha Liberacion] FROM Fianzas WHERE idNroFianza = " + Convert.ToInt32(idFianza), "Fecha Liberacion").Equals(string.Empty))
                         {
                             // Primero obtengo el código del motivo de liberación de la fianza.
                             int codigo = Convert.ToInt32(c_DatosLiberacion.Cadena("SELECT Cod_Lib FROM Motivos WHERE Descripcion = '" + cbMotivoLibe.Text + "'", "Cod_Lib"));
 
-                            //Luego almaceno la información de la liberación de la fianza.
-                            filasAfectadas = c_DatosLiberacion.LiberarFianza("UPDATE Fianzas SET [Fecha Liberacion] = '" + dtpFechaLiberacion.Value.Date + "', Cod_Lib = " + codigo + " WHERE [Nro de Fianza] = '" + tbNroFianza.Text + "'");
+                            // Luego almaceno la información de la liberación de la fianza.
+                            filasAfectadas = c_DatosLiberacion.LiberarFianza("UPDATE Fianzas SET [Fecha Liberacion] = '" + dtpFechaLiberacion.Value.Date + "', Cod_Lib = " + codigo + " WHERE idNroFianza = " + Convert.ToInt32(idFianza));
                             if (filasAfectadas > 0)
                                 // Por último, se avisa al usuario que la fianza ha sido liberada.
                                 new FormAviso("La fianza se ha liberado exitosamente.", 336, 119).ShowDialog();
@@ -178,7 +180,7 @@ namespace Vista
                             int codigo = Convert.ToInt32(c_DatosLiberacion.Cadena("SELECT Cod_Lib FROM Motivos WHERE Descripcion = '" + cbMotivoLibe.Text + "'", "Cod_Lib"));
 
                             //Luego almaceno la información de la liberación de la fianza.
-                            filasAfectadas = c_DatosLiberacion.LiberarFianza("UPDATE Fianzas SET [Fecha Liberacion] = '" + dtpFechaLiberacion.Value.Date + "', Cod_Lib = " + codigo + " WHERE [Nro de Fianza] = '" + tbNroFianza.Text + "'");
+                            filasAfectadas = c_DatosLiberacion.LiberarFianza("UPDATE Fianzas SET [Fecha Liberacion] = '" + dtpFechaLiberacion.Value.Date + "', Cod_Lib = " + codigo + " WHERE idNroFianza = " + Convert.ToInt32(idFianza));
                             if (filasAfectadas > 0)
                                 // Por último, se avisa al usuario que ha sido actualizado los datos de liberación de la fianza.
                                 new FormAviso("Los datos de liberación han sido actualizados.", 390, 146).ShowDialog();
@@ -189,13 +191,13 @@ namespace Vista
                 if (año >= 2006)
                 {
                     // Si la fianza aún no se ha liberado...
-                    if (c_DatosLiberacion.Cadena("SELECT [Fecha Liberacion] FROM Fianzas WHERE [Nro de Fianza] = '" + tbNroFianza.Text + "'", "Fecha Liberacion").Equals(string.Empty)) //dtpFechaLiberacion.Value.ToString().Equals(string.Empty)
+                    if (c_DatosLiberacion.Cadena("SELECT [Fecha Liberacion] FROM Fianzas WHERE idNroFianza = " + Convert.ToInt32(idFianza), "Fecha Liberacion").Equals(string.Empty)) //dtpFechaLiberacion.Value.ToString().Equals(string.Empty)
                     {
                         // Primero obtengo el código del motivo de liberación de la fianza.
                         int codigo = Convert.ToInt32(c_DatosLiberacion.Cadena("SELECT Cod_Lib FROM Motivos WHERE Descripcion = '" + cbMotivoLibe.Text + "'", "Cod_Lib"));
 
                         //Luego almaceno la información de la liberación de la fianza.
-                        filasAfectadas = c_DatosLiberacion.LiberarFianza("UPDATE Fianzas SET [Fecha Liberacion] = '" + dtpFechaLiberacion.Value.Date + "', Cod_Lib = " + codigo + " WHERE [Nro de Fianza] = '" + tbNroFianza.Text + "'");
+                        filasAfectadas = c_DatosLiberacion.LiberarFianza("UPDATE Fianzas SET [Fecha Liberacion] = '" + dtpFechaLiberacion.Value.Date + "', Cod_Lib = " + codigo + " WHERE idNroFianza = " + Convert.ToInt32(idFianza));
                         if (filasAfectadas > 0)
                             // Por último, se avisa al usuario que la fianza ha sido liberada.
                             new FormAviso("La fianza se ha liberado exitosamente.", 336, 119).ShowDialog();
@@ -205,8 +207,8 @@ namespace Vista
                         // Primero obtengo el código del motivo de liberación de la fianza.
                         int codigo = Convert.ToInt32(c_DatosLiberacion.Cadena("SELECT Cod_Lib FROM Motivos WHERE Descripcion = '" + cbMotivoLibe.Text + "'", "Cod_Lib"));
 
-                        //Luego almaceno la información de la liberación de la fianza.
-                        filasAfectadas = c_DatosLiberacion.LiberarFianza("UPDATE Fianzas SET [Fecha Liberacion] = '" + dtpFechaLiberacion.Value.Date + "', Cod_Lib = " + codigo + " WHERE [Nro de Fianza] = '" + tbNroFianza.Text + "'");
+                        // Luego almaceno la información de la liberación de la fianza.
+                        filasAfectadas = c_DatosLiberacion.LiberarFianza("UPDATE Fianzas SET [Fecha Liberacion] = '" + dtpFechaLiberacion.Value.Date + "', Cod_Lib = " + codigo + " WHERE idNroFianza = " + Convert.ToInt32(idFianza));
                         if (filasAfectadas > 0)
                             // Por último, se avisa al usuario que ha sido actualizado los datos de liberación de la fianza.
                             new FormAviso("Los datos de liberación han sido actualizados.", 390, 146).ShowDialog();

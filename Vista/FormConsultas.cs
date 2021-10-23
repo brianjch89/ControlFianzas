@@ -15,6 +15,7 @@ namespace Vista
     public partial class FormConsultas : Form
     {
         ControladorConsultas c_Consultas;
+        DataRow fi = null;
 
         public FormConsultas()
         {
@@ -28,8 +29,9 @@ namespace Vista
             lHora.Text = DateTime.Now.ToString("hh:mm:ss tt");
         }
 
-        public void InformacionFianza(DataRow fi)
+        public void InformacionFianza(DataRow fianza)
         {
+            fi = fianza;
             tbNroFianza.Text = fi["Nro de Fianza"].ToString();
             cbGarante.Text = fi["Nombre_Garante"].ToString();
             tbMonto.Text = fi["Monto"].ToString();
@@ -100,7 +102,7 @@ namespace Vista
 
             fdlc.SetNroFianza(tbNroFianza.Text);
             fdlc.SetFechaEmision(dtpEmision.Value.Date);
-            DataTable f = c_Consultas.ObtenerDatosLiberación(tbNroFianza.Text, Convert.ToInt32(tbAño.Text));
+            DataTable f = c_Consultas.ObtenerDatosLiberación(fi["idNroFianza"].ToString(), Convert.ToInt32(tbAño.Text));
             fdlc.DatosRestantesLiberacion(f);
 
             fdlc.ShowDialog();

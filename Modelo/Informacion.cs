@@ -23,7 +23,7 @@ namespace Modelo
                 cmd.Connection = conexion.AbrirConexion();
                 if (año >= 0 && año <= 2005)
                 {
-                    cmd.CommandText = "SELECT [Nro de Fianza], [Fecha de Emision], [Nro Archivo], [Fecha de Vencimiento], [Fecha Recibida], Ano, g.Nombre_Garante, c.Nombre_Consignatario, a.Nombre_Agente, tf.DesTipFian AS NaturalezaOperacion, Asunto, Monto, Notaria, Tomo, Nro, [Fecha de Reg], o.NroOficio " +
+                    cmd.CommandText = "SELECT idNroFianza, [Nro de Fianza], [Fecha de Emision], [Nro Archivo], [Fecha de Vencimiento], [Fecha Recibida], Ano, g.Nombre_Garante, c.Nombre_Consignatario, a.Nombre_Agente, tf.DesTipFian AS NaturalezaOperacion, Asunto, Monto, Notaria, Tomo, Nro, [Fecha de Reg], o.NroOficio " +
                                       "FROM ((((([Copia de Fianzas] AS f LEFT JOIN Garantes AS g ON (g.Rif_Garante = f.Garante)) " +
                                       "LEFT JOIN Consignatarios AS c ON (c.Rif_Consignatario = f.[Rif Contribuyente])) " +
                                       "LEFT JOIN Agentes AS a ON (a.Rif_Agentes = f.[Rif Agente])) " +
@@ -37,7 +37,7 @@ namespace Modelo
                 }
                 if (año == 2004 || año == 2005)
                 {
-                    cmd.CommandText = "SELECT [Nro de Fianza], [Fecha de Emision], [Nro Archivo], [Fecha de Vencimiento], [Fecha Recibida], Ano, g.Nombre_Garante, c.Nombre_Consignatario, a.Nombre_Agente, tf.DesTipFian AS NaturalezaOperacion, Asunto, Monto, Notaria, Tomo, Nro, [Fecha de Reg], o.NroOficio " +
+                    cmd.CommandText = "SELECT idNroFianza, [Nro de Fianza], [Fecha de Emision], [Nro Archivo], [Fecha de Vencimiento], [Fecha Recibida], Ano, g.Nombre_Garante, c.Nombre_Consignatario, a.Nombre_Agente, tf.DesTipFian AS NaturalezaOperacion, Asunto, Monto, Notaria, Tomo, Nro, [Fecha de Reg], o.NroOficio " +
                                       "FROM (((((Fianzas AS f LEFT JOIN Garantes AS g ON (g.Rif_Garante = f.Garante)) " +
                                       "LEFT JOIN Consignatarios AS c ON (c.Rif_Consignatario = f.[Rif Contribuyente])) " +
                                       "LEFT JOIN Agentes AS a ON (a.Rif_Agentes = f.[Rif Agente])) " +
@@ -52,7 +52,7 @@ namespace Modelo
 
                 if (año >= 2006)
                 {
-                    cmd.CommandText = "SELECT [Nro de Fianza], [Fecha de Emision], [Nro Archivo], [Fecha de Vencimiento], [Fecha Recibida], Ano, g.Nombre_Garante, c.Nombre_Consignatario, a.Nombre_Agente, tf.DesTipFian AS NaturalezaOperacion, Asunto, Monto, Notaria, Tomo, Nro, [Fecha de Reg], o.NroOficio " +
+                    cmd.CommandText = "SELECT idNroFianza, [Nro de Fianza], [Fecha de Emision], [Nro Archivo], [Fecha de Vencimiento], [Fecha Recibida], Ano, g.Nombre_Garante, c.Nombre_Consignatario, a.Nombre_Agente, tf.DesTipFian AS NaturalezaOperacion, Asunto, Monto, Notaria, Tomo, Nro, [Fecha de Reg], o.NroOficio " +
                                       "FROM (((((Fianzas AS f LEFT JOIN Garantes AS g ON (g.Rif_Garante = f.Garante)) " +
                                       "LEFT JOIN Consignatarios AS c ON (c.Rif_Consignatario = f.[Rif Contribuyente])) " +
                                       "LEFT JOIN Agentes AS a ON (a.Rif_Agentes = f.[Rif Agente])) " +
@@ -80,6 +80,7 @@ namespace Modelo
         public DataTable CrearColumnasTabla()
         {
             DataTable dt = new DataTable();
+            dt.Columns.Add("idNroFianza");
             dt.Columns.Add("Nro de Fianza");
             dt.Columns.Add("Fecha de Emision");
             dt.Columns.Add("Nro Archivo");
@@ -109,6 +110,7 @@ namespace Modelo
             {
                 fi = dt.NewRow();
 
+                fi["idNroFianza"] = reader["idNroFianza"].ToString();
                 fi["Nro de Fianza"] = reader["Nro de Fianza"].ToString();
 
 
@@ -180,6 +182,7 @@ namespace Modelo
 
                 // Si lo que se quiere es buscar la información de una fianza almacenada para ser mostrada...
                 DataTable dt = new DataTable();
+                dt.Columns.Add("idNroFianza");
                 dt.Columns.Add("Nro de Fianza");
                 dt.Columns.Add("Fecha de Emision");
                 dt.Columns.Add("Nro Archivo");
@@ -201,6 +204,7 @@ namespace Modelo
                 DataRow fi = dt.NewRow();
                 if (reader.Read())
                 {
+                    fi["idNroFianza"] = reader["idNroFianza"].ToString();
                     fi["Nro de Fianza"] = reader["Nro de Fianza"].ToString();
 
 

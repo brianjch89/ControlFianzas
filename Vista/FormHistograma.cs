@@ -34,9 +34,9 @@ namespace Vista
             chart1.Series["Series1"].LegendText = "Fianzas por vencerse";
 
             Dictionary<string, int> dic = new Dictionary<string, int>();
-            dic.Add(mes1, porVencerseMes1);
-            dic.Add(mes2, porVencerseMes2);
-            dic.Add(mes3, porVencerseMes3);
+            dic.Add(mes1 + " (" + porVencerseMes1 + ")", porVencerseMes1);
+            dic.Add(mes2 + " (" + porVencerseMes2 + ")", porVencerseMes2);
+            dic.Add(mes3 + " (" + porVencerseMes3 + ")", porVencerseMes3);
 
             foreach (KeyValuePair<string, int> d in dic)
                 chart1.Series["Series1"].Points.AddXY(d.Key, d.Value);

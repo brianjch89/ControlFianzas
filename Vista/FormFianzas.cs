@@ -192,6 +192,7 @@ namespace Vista
 
         private void btnNuevo_Click(object sender, EventArgs e)
         {
+            //DataTable dt_FianzaAingresar;
             // Si se presionó el botón "Nueva Fianza" del Form "FormFianza" o se presionó el botón "Fianzas"
             // del Form "FormVentadaPrincipal"...
             if (estado)
@@ -200,6 +201,7 @@ namespace Vista
                     new FormAviso("Llene los campos necesarios para poder ingresar la fianza.", 492, 197).ShowDialog();
                 else
                 {
+                    //dt_FianzaAingresar = TomarInformacionFianzaAIngresar(1);
                     if (TomarInformacionFianzaAIngresar(1).Rows.Count > 0)
                     {
                         if (c_Fianzas.GestionarFianza(TomarInformacionFianzaAIngresar(1), 1, Convert.ToInt32(tbAño.Text)) > 0)
@@ -224,6 +226,7 @@ namespace Vista
                     new FormAviso("Llene los campos necesarios para poder actualizar la fianza.", 505, 204).ShowDialog();
                 else
                 {
+                    //dt_FianzaAingresar = TomarInformacionFianzaAIngresar(2);
                     if (TomarInformacionFianzaAIngresar(2).Rows.Count > 0)
                     {
                         if (c_Fianzas.GestionarFianza(TomarInformacionFianzaAIngresar(2), 2, Convert.ToInt32(tbAño.Text)) > 0)
@@ -234,11 +237,11 @@ namespace Vista
                         else
                         {
                             lNroFianza.ForeColor = ColorTranslator.FromHtml("#EC2E2E");
-                            new FormAviso("Error. Verifique los datos.", 241, 72).ShowDialog();
+                            new FormAviso("Error. Verifique los datos.1", 241, 72).ShowDialog();
                         }
                     }
                     else
-                        new FormAviso("Error. Verifique los datos.", 241, 72).ShowDialog();
+                        new FormAviso("Error. Verifique los datos.2", 241, 72).ShowDialog();
                 }
             }
         }
@@ -246,6 +249,10 @@ namespace Vista
         public DataTable TomarInformacionFianzaAIngresar(int opc)
         {
             DataTable dt = new DataTable();
+
+            if (opc == 2)
+                dt.Columns.Add("idNroFianza");
+
             dt.Columns.Add("Nro de Fianza");
             dt.Columns.Add("Fecha de Emision");
             dt.Columns.Add("Nro Archivo");
@@ -268,6 +275,9 @@ namespace Vista
                 dt.Columns.Add("Ingreso al Sistema");
 
             DataRow f = dt.NewRow();
+
+            if (opc == 2)
+                f["idNroFianza"] = fianzas.Rows[cont]["idNroFianza"].ToString();
 
             f["Nro de Fianza"] = tbNroFianza.Text;
             f["Fecha de Emision"] = Convert.ToDateTime(dtpEmision.Value.ToString("dd/MM/yyyy")).ToShortDateString();
@@ -369,17 +379,16 @@ namespace Vista
             finf.ShowDialog();
             if (finf.ban)
             {
-                DataTable dt = finf.dt;
-
-                DataRow filaEncontrada = dt.Rows[0];
+                DataRow filaEncontrada = finf.fi;
                 LlenarCampos(filaEncontrada);
                 estado = false;
                 ban = true;
 
+                // Este código es para saber en cuál fianza estoy ubicado
                 int i = 0;
                 foreach (DataRow fila in fianzas.Rows)
                 {
-                    if (fila["Nro de Fianza"].ToString().Equals(filaEncontrada["Nro de Fianza"].ToString()))
+                    if (fila["idNroFianza"].ToString().Equals(filaEncontrada["idNroFianza"].ToString())) // fila["Nro de Fianza"].ToString().Equals(filaEncontrada["Nro de Fianza"].ToString())
                         break;
                     i++;
                 }
@@ -460,7 +469,14 @@ namespace Vista
                     fe.ShowDialog();
                     if (fe.estado)
                         if (fe.dtgFianzas != null)
-                            new FormMostrarEtiqueta(fe.dtgFianzas).ShowDialog();
+                        {
+                            if (fe.dtgFianzas.RowCount == 3)
+                                new FormMostrarEtiqueta_3_etiquetas(fe.dtgFianzas).ShowDialog();
+                            else if (fe.dtgFianzas.RowCount == 2)
+                                new FormMostrarEtiqueta_2_etiquetas(fe.dtgFianzas).ShowDialog();
+                            else
+                                new FormMostrarEtiqueta_1_etiqueta(fe.dtgFianzas).ShowDialog();
+                        }
                 }
             }
         }

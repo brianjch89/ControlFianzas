@@ -234,11 +234,11 @@ namespace Vista
 
         private void btnDatosLiberacion_Click(object sender, EventArgs e)
         {
-            FormDatosLiberacion fdl = new FormDatosLiberacion();
+            FormDatosLiberacion fdl = new FormDatosLiberacion(fianzas.Rows[cont]["idNroFianza"].ToString());
 
             fdl.SetNroFianza(tbNroFianza.Text);
             fdl.SetFechaEmision(dtpEmision.Value.Date);
-            DataTable f = c_Liberacion.ObtenerDatosLiberación(tbNroFianza.Text, Convert.ToInt32(tbAño.Text));
+            DataTable f = c_Liberacion.ObtenerDatosLiberación(fianzas.Rows[cont]["idNroFianza"].ToString(), Convert.ToInt32(tbAño.Text)); // tbNroFianza.Text, Convert.ToInt32(tbAño.Text)
             fdl.DatosRestantesLiberacion(f, Convert.ToInt32(tbAño.Text));
 
             fdl.ShowDialog();

@@ -16,3 +16,15 @@ C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo
 C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Release\Modelo.pdb
 C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\obj\Release\Modelo.dll
 C:\Users\BrianJCh\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\obj\Release\Modelo.pdb
+E:\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Release\ControlFianzas.accdb
+E:\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Release\Modelo.dll.config
+E:\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Release\Modelo.dll
+E:\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Release\Modelo.pdb
+E:\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\obj\Release\Modelo.dll
+E:\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\obj\Release\Modelo.pdb
+C:\Users\Brian\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Release\ControlFianzas.accdb
+C:\Users\Brian\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Release\Modelo.dll.config
+C:\Users\Brian\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Release\Modelo.dll
+C:\Users\Brian\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\bin\Release\Modelo.pdb
+C:\Users\Brian\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\obj\Release\Modelo.dll
+C:\Users\Brian\Documents\PASANTÍA\SISTEMA AUTOMATIZADO\ControlFianzas\Modelo\obj\Release\Modelo.pdb

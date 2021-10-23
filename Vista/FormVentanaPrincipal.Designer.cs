@@ -62,8 +62,9 @@
             this.BarraTitulo.Controls.Add(this.btnCerrar);
             this.BarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.BarraTitulo.Location = new System.Drawing.Point(0, 0);
+            this.BarraTitulo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BarraTitulo.Name = "BarraTitulo";
-            this.BarraTitulo.Size = new System.Drawing.Size(1200, 38);
+            this.BarraTitulo.Size = new System.Drawing.Size(1600, 47);
             this.BarraTitulo.TabIndex = 0;
             this.BarraTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BarraTitulo_MouseDown);
             // 
@@ -72,9 +73,10 @@
             this.lFormularioFianzas.AutoSize = true;
             this.lFormularioFianzas.Font = new System.Drawing.Font("Century Gothic", 11.25F);
             this.lFormularioFianzas.ForeColor = System.Drawing.Color.White;
-            this.lFormularioFianzas.Location = new System.Drawing.Point(3, 9);
+            this.lFormularioFianzas.Location = new System.Drawing.Point(4, 11);
+            this.lFormularioFianzas.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lFormularioFianzas.Name = "lFormularioFianzas";
-            this.lFormularioFianzas.Size = new System.Drawing.Size(229, 20);
+            this.lFormularioFianzas.Size = new System.Drawing.Size(284, 22);
             this.lFormularioFianzas.TabIndex = 4;
             this.lFormularioFianzas.Text = "Formulario Principal de Fianzas";
             this.lFormularioFianzas.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lFormularioFianzas_MouseDown);
@@ -84,9 +86,10 @@
             this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
-            this.btnMinimizar.Location = new System.Drawing.Point(1122, 6);
+            this.btnMinimizar.Location = new System.Drawing.Point(1496, 7);
+            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(25, 25);
+            this.btnMinimizar.Size = new System.Drawing.Size(33, 31);
             this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMinimizar.TabIndex = 2;
             this.btnMinimizar.TabStop = false;
@@ -97,9 +100,10 @@
             this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
-            this.btnCerrar.Location = new System.Drawing.Point(1162, 6);
+            this.btnCerrar.Location = new System.Drawing.Point(1549, 7);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(25, 25);
+            this.btnCerrar.Size = new System.Drawing.Size(33, 31);
             this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnCerrar.TabIndex = 0;
             this.btnCerrar.TabStop = false;
@@ -109,9 +113,10 @@
             // 
             this.panelContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContenedor.Location = new System.Drawing.Point(220, 38);
+            this.panelContenedor.Location = new System.Drawing.Point(293, 47);
+            this.panelContenedor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(980, 577);
+            this.panelContenedor.Size = new System.Drawing.Size(1307, 710);
             this.panelContenedor.TabIndex = 4;
             // 
             // MenuVertical
@@ -130,10 +135,10 @@
             this.MenuVertical.Controls.Add(this.btnFianzas);
             this.MenuVertical.Controls.Add(this.btnInicio);
             this.MenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
-            this.MenuVertical.Location = new System.Drawing.Point(0, 38);
+            this.MenuVertical.Location = new System.Drawing.Point(0, 47);
             this.MenuVertical.Margin = new System.Windows.Forms.Padding(0);
             this.MenuVertical.Name = "MenuVertical";
-            this.MenuVertical.Size = new System.Drawing.Size(220, 577);
+            this.MenuVertical.Size = new System.Drawing.Size(293, 710);
             this.MenuVertical.TabIndex = 3;
             // 
             // lCopyright
@@ -141,18 +146,20 @@
             this.lCopyright.AutoSize = true;
             this.lCopyright.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
             this.lCopyright.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(255)))));
-            this.lCopyright.Location = new System.Drawing.Point(79, 474);
+            this.lCopyright.Location = new System.Drawing.Point(105, 583);
+            this.lCopyright.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lCopyright.Name = "lCopyright";
-            this.lCopyright.Size = new System.Drawing.Size(59, 18);
+            this.lCopyright.Size = new System.Drawing.Size(78, 23);
             this.lCopyright.TabIndex = 21;
-            this.lCopyright.Text = "©  2019";
+            this.lCopyright.Text = "©  2022";
             // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel7.Location = new System.Drawing.Point(0, 345);
+            this.panel7.Location = new System.Drawing.Point(0, 425);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(5, 32);
+            this.panel7.Size = new System.Drawing.Size(7, 39);
             this.panel7.TabIndex = 14;
             // 
             // btnNotificaciones
@@ -166,9 +173,10 @@
             this.btnNotificaciones.ForeColor = System.Drawing.Color.White;
             this.btnNotificaciones.Image = ((System.Drawing.Image)(resources.GetObject("btnNotificaciones.Image")));
             this.btnNotificaciones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNotificaciones.Location = new System.Drawing.Point(3, 345);
+            this.btnNotificaciones.Location = new System.Drawing.Point(4, 425);
+            this.btnNotificaciones.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNotificaciones.Name = "btnNotificaciones";
-            this.btnNotificaciones.Size = new System.Drawing.Size(217, 32);
+            this.btnNotificaciones.Size = new System.Drawing.Size(289, 39);
             this.btnNotificaciones.TabIndex = 13;
             this.btnNotificaciones.Text = "               Notificaciones";
             this.btnNotificaciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -178,9 +186,10 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel6.Location = new System.Drawing.Point(0, 307);
+            this.panel6.Location = new System.Drawing.Point(0, 378);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(5, 32);
+            this.panel6.Size = new System.Drawing.Size(7, 39);
             this.panel6.TabIndex = 12;
             // 
             // btnActualizarInfo
@@ -194,9 +203,10 @@
             this.btnActualizarInfo.ForeColor = System.Drawing.Color.White;
             this.btnActualizarInfo.Image = ((System.Drawing.Image)(resources.GetObject("btnActualizarInfo.Image")));
             this.btnActualizarInfo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnActualizarInfo.Location = new System.Drawing.Point(3, 307);
+            this.btnActualizarInfo.Location = new System.Drawing.Point(4, 378);
+            this.btnActualizarInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnActualizarInfo.Name = "btnActualizarInfo";
-            this.btnActualizarInfo.Size = new System.Drawing.Size(217, 32);
+            this.btnActualizarInfo.Size = new System.Drawing.Size(289, 39);
             this.btnActualizarInfo.TabIndex = 11;
             this.btnActualizarInfo.Text = "               Actualizar Info";
             this.btnActualizarInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -206,9 +216,10 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel3.Location = new System.Drawing.Point(0, 269);
+            this.panel3.Location = new System.Drawing.Point(0, 331);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(5, 32);
+            this.panel3.Size = new System.Drawing.Size(7, 39);
             this.panel3.TabIndex = 6;
             // 
             // btnLiberacion
@@ -222,9 +233,10 @@
             this.btnLiberacion.ForeColor = System.Drawing.Color.White;
             this.btnLiberacion.Image = ((System.Drawing.Image)(resources.GetObject("btnLiberacion.Image")));
             this.btnLiberacion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLiberacion.Location = new System.Drawing.Point(3, 269);
+            this.btnLiberacion.Location = new System.Drawing.Point(4, 331);
+            this.btnLiberacion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLiberacion.Name = "btnLiberacion";
-            this.btnLiberacion.Size = new System.Drawing.Size(217, 32);
+            this.btnLiberacion.Size = new System.Drawing.Size(289, 39);
             this.btnLiberacion.TabIndex = 5;
             this.btnLiberacion.Text = "               Liberación";
             this.btnLiberacion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -234,9 +246,10 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel2.Location = new System.Drawing.Point(0, 231);
+            this.panel2.Location = new System.Drawing.Point(0, 284);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(5, 32);
+            this.panel2.Size = new System.Drawing.Size(7, 39);
             this.panel2.TabIndex = 4;
             // 
             // btnConsultas
@@ -250,9 +263,10 @@
             this.btnConsultas.ForeColor = System.Drawing.Color.White;
             this.btnConsultas.Image = ((System.Drawing.Image)(resources.GetObject("btnConsultas.Image")));
             this.btnConsultas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnConsultas.Location = new System.Drawing.Point(3, 231);
+            this.btnConsultas.Location = new System.Drawing.Point(4, 284);
+            this.btnConsultas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnConsultas.Name = "btnConsultas";
-            this.btnConsultas.Size = new System.Drawing.Size(217, 32);
+            this.btnConsultas.Size = new System.Drawing.Size(289, 39);
             this.btnConsultas.TabIndex = 3;
             this.btnConsultas.Text = "               Consultas";
             this.btnConsultas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -262,9 +276,10 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel9.Location = new System.Drawing.Point(0, 193);
+            this.panel9.Location = new System.Drawing.Point(0, 238);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(5, 32);
+            this.panel9.Size = new System.Drawing.Size(7, 39);
             this.panel9.TabIndex = 2;
             // 
             // btnFianzas
@@ -278,9 +293,10 @@
             this.btnFianzas.ForeColor = System.Drawing.Color.White;
             this.btnFianzas.Image = ((System.Drawing.Image)(resources.GetObject("btnFianzas.Image")));
             this.btnFianzas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFianzas.Location = new System.Drawing.Point(3, 193);
+            this.btnFianzas.Location = new System.Drawing.Point(4, 238);
+            this.btnFianzas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnFianzas.Name = "btnFianzas";
-            this.btnFianzas.Size = new System.Drawing.Size(217, 32);
+            this.btnFianzas.Size = new System.Drawing.Size(289, 39);
             this.btnFianzas.TabIndex = 1;
             this.btnFianzas.Text = "               Fianzas";
             this.btnFianzas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -291,10 +307,10 @@
             // 
             this.btnInicio.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnInicio.Image = ((System.Drawing.Image)(resources.GetObject("btnInicio.Image")));
-            this.btnInicio.Location = new System.Drawing.Point(0, 60);
+            this.btnInicio.Location = new System.Drawing.Point(0, 74);
             this.btnInicio.Margin = new System.Windows.Forms.Padding(0);
             this.btnInicio.Name = "btnInicio";
-            this.btnInicio.Size = new System.Drawing.Size(220, 49);
+            this.btnInicio.Size = new System.Drawing.Size(293, 60);
             this.btnInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnInicio.TabIndex = 0;
             this.btnInicio.TabStop = false;
@@ -302,14 +318,15 @@
             // 
             // FormVentanaPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 615);
+            this.ClientSize = new System.Drawing.Size(1600, 757);
             this.Controls.Add(this.panelContenedor);
             this.Controls.Add(this.MenuVertical);
             this.Controls.Add(this.BarraTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormVentanaPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario Principal de Fianzas";
